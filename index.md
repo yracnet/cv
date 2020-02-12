@@ -7,7 +7,7 @@ Software Developer (JEE & Architect)
 
 <br/>
 - Bachelor of Computer Systems. 
-- Degree in Computer Science from the "Universidad Mayor de San Andrés - La Paz - Bolivia".
+- Degree in Computer Science from the "Universidad Mayor de San Andrés" - La Paz - Bolivia.
 - Experience in the analysis, development and evaluation of computer systems.
 - Training continues in the latest trends, technologies and paradigms.
 
@@ -76,14 +76,15 @@ Software Developer (JEE & Architect)
 `03/2015-09/2015`
 <span class="tag perm">Permanent</span>
 **Software Developer Analyst**, _ESPM - Empresa de Servicio de Pago Movil_, La Paz - Bolivia
-- Deployment of Security Module
+- Security module development
+- Authentication module development
 - _Technologies:_ Java6, Git, JPA, EJB, JSF, WebLogic10, Oracle
 
 
 `09/2014-02/2015`
 <span class="tag free">Consultant</span>
 **Software Developer Analyst**, _Servicio de Impuestos Nacionales_, La Paz - Bolivia
-- Deployment of Security Module
+- Platform development with Eclipse RCP-E3
 - _Technologies:_ Java6, RCP-E4, RCP-E3, Maven, JPA, AngularJS, JBoss7
 
 
