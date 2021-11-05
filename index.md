@@ -47,7 +47,12 @@ Software Developer (JEE & Architect)
 
 ### Professional
 
-`09/2019-03/2020`
+`03/2021-NOW`
+<span class="tag remote">Remote Consultant</span>
+**Senior Software Engineer**, _ArganoUV_, New York - UUEE
+- _Technologies:_ EAM, ReactJS, Next.JS, Redux, MongoDB, Git
+
+`09/2019-12/2020`
 <span class="tag free">Consultant</span>
 **Software Developer Analyst (JEE / Arquitect)**, _Banco Central de Bolivia_, La Paz - Bolivia
 - Design and Development the new framework for core project in the bank with Java Enterprise Edition oriented for micro-deploys & GTIC-Lineament
