@@ -103,8 +103,8 @@ ul {
 
 li {
 	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
+	padding-left: 0;
+	text-indent: 0;
 	/*color: #777;*/
 }
 
@@ -134,6 +134,7 @@ h1+p {
 	/*subtitle*/
 	font-style: italic;
 	font-size: 110%;
+	padding-top: 10px;
 }
 
 h2 {
@@ -172,7 +173,7 @@ a:hover {
 #webaddress {
 	margin-top: 1em;
 	position: relative;
-	left: 28%;
+	left: 32%;
 	color: #ccc;
 	font-family: Menlo,monospace,sans-serif;
 	font-size: 80%;
