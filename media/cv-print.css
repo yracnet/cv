@@ -76,7 +76,7 @@ code {
 	font-size: 60%;
 	/*line-height: 1em;*/
 	font-family: Menlo,monospace,sans-serif;
-	color: #ccc;
+	color: black;
 	display: block;
 }
 
@@ -153,7 +153,7 @@ h2+p {
 h3 {
 	font-size: 1em;
 	line-height: 2em;
-	color: #ccc;
+	color: black;
 	position: relative;
 	top: 1.6em;
 	text-align: right;
@@ -180,6 +180,18 @@ a:hover {
 
 #webaddress a {
 	text-decoration: none;
+	display: block;
+	width: 100%;
+	color: black;
+}
+
+#webaddress a span{
+    width: 75px;
+	display: inline-block;
+}
+
+#webaddress a::after{
+    content: ": " attr(href) " ";
 }
 
 em {
@@ -206,6 +218,10 @@ strong {
 
 .free {
 	background-color: indianred;
+}
+
+.remote {
+	background-color: rgb(92, 137, 205);
 }
 
 .perm {

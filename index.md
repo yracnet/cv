@@ -12,13 +12,10 @@ Software Developer (JEE & Architect)
 - Training continues in the latest trends, technologies and paradigms.
 
 <div id="webaddress">
-<a href="yracnet@gmail.com">My Email</a>
-|
-<a href="https://www.github.com/yracnet/">My Github</a>
-|
-<a href="https://mvnrepository.com/artifact/com.github.yracnet">My Jars</a>
-|
-<a href="https://www.npmjs.com/~yracnet">My Pkg</a>
+<a href="https://yracnet.github.io/cv/yracnet@gmail.com"><span>My Email</span></a>
+<a href="https://www.github.com/yracnet/"><span>My Github</span></a>
+<a href="https://mvnrepository.com/artifact/com.github.yracnet"><span>My Jars</span></a>
+<a href="https://www.npmjs.com/~yracnet"><span>My Pkg</span></a>
 </div>
 
 
