@@ -50,7 +50,7 @@ Software Developer (JEE & Architect)
 `03/2021-NOW`
 <span class="tag remote">Remote Consultant</span>
 **Senior Software Engineer**, _ArganoUV_, New York - EU
-- _Technologies:_ EAM, ReactJS, Next.JS, Redux, MongoDB, Git
+- _Technologies:_ EAM, ReactJS, Next.JS, Redux, MongoDB, Git, Java, NodeJS, Chrome-Extension, Php, 
 
 `09/2019-12/2020`
 <span class="tag free">Consultant</span>
