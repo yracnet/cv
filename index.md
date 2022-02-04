@@ -3,7 +3,7 @@ layout: cv
 title: Willyams Y. H.
 ---
 # Willyams Yujra
-Software Developer (JEE & Architect)
+Software Developer
 
 <br/>
 - Bachelor of Computer Systems. 
@@ -26,11 +26,11 @@ Software Developer (JEE & Architect)
 - Functional Programming
 - Object-Oriented Programming
 - Web applications development
-- Project Development in vb6, .net, php, java and js
+- ReactJS, Redux, NextJS
+- JEE 6, JEE 8
 - Java Enterprise Architecture
 - Java Enterprise Servers as Wildfly, JBoss, Glassfish & WebLogic
 - Agile development; Scrum
-- 
 
 ### Personal Skills
 
@@ -47,7 +47,8 @@ Software Developer (JEE & Architect)
 `03/2021-NOW`
 <span class="tag remote">Remote Consultant</span>
 **Senior Software Engineer**, _ArganoUV_, New York - EU
-- _Technologies:_ EAM, ReactJS, Next.JS, Redux, MongoDB, Git, Java, NodeJS, Chrome-Extension, Php, 
+- Development and maintenance of systems, CMS, in different technologies 
+- _Technologies:_ EAM, ReactJS, Next.JS, Redux, MongoDB, Git, Java, NodeJS, Chrome-Extension, Php, Python
 
 `09/2019-12/2020`
 <span class="tag free">Consultant</span>
