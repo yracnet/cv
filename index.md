@@ -51,7 +51,7 @@ Software Developer
 
 - Development and maintenance of systems, CMS, in different technologies
 - _Technologies:_ ReactJS, Next.JS, Redux, MongoDB, Git, Java, NodeJS, Chrome-Extension, Python, C#
-- HPE Parner Connect _https://partnerconnect.hpe.com/partners_
+- HPE Parner Connect
 - HPE Cloud United
 - TripKicks Extension for _Chrome Browser_
 
