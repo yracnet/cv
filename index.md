@@ -5,7 +5,7 @@ title: Willyams Y. H.
 
 # Willyams Yujra
 
-Software Developer
+Senior Software Engineer - Software Architect
 
 <br/>
 - Master's Degree in Strategic Management in Software Engineering from "Universidad Autónoma René Gabriel Moreno" – Santa Cruz - Bolivia.
