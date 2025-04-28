@@ -8,10 +8,11 @@ title: Willyams Y. H.
 Software Developer
 
 <br/>
-- Bachelor of Computer Systems.
-- Degree in Computer Science from the "Universidad Mayor de San Andrés" - La Paz - Bolivia.
-- Experience in the analysis, development and evaluation of computer systems.
-- Training continues in the latest trends, technologies and paradigms.
+- Master's Degree in Strategic Management in Software Engineering from "Universidad Autónoma René Gabriel Moreno" – Santa Cruz - Bolivia.
+- Bachelor's Degree in Computer Systems Engineering from the "Universidad Mayor de San Andrés" – La Paz, Bolivia.
+- Experience in the analysis, development, and evaluation of computer systems.
+- Ongoing training in the latest trends, technologies, and paradigms.
+
 
 <div id="webaddress">
 <a href="https://yracnet.github.io/cv/yracnet@gmail.com"><span>My Email</span></a>
@@ -22,24 +23,23 @@ Software Developer
 
 ## Core Skills
 
-### Technology
-
 ### Technical Skills
 - Software Architecture & System Design
+- Java Enterprise Edition - JEE (JTA, JPA, JAX-RS, WebLogic, Wildfly, Payara)
 - Web Application Development (NodeJS, ReactJS, NextJS, ViteJS, Express)
-- DevOps (CI/CD, Docker, Infrastructure as Code)
-- Cloud Computing Basics (AWS, Azure concepts)
+- DevOps (CI/CD, Docker, Infrastructure as Code, Gitea Actions)
+- Cloud Computing Basics (AWS, Azure concepts, Cloud Sigma)
 - Database Management (MongoDB, Oracle, PostgreSQL)
 - Secure Software Development
-- Test Automation (SonarQube, Selenium basics)
+- Test Automation (SonarQube, basic Selenium)
 
 ### Personal Skills
-
 - Agile Methodologies (Scrum, Kanban)
 - Project Management
 - Team Leadership
 - Critical Thinking & Problem Solving
 - Technical Documentation & Standardization
+
 
 ## Occupation
 
@@ -50,50 +50,52 @@ Software Developer
 **Senior Software Engineer**, _ArganoUV_, New York - EEUU
 
 - Development and maintenance of CMS systems and Chrome Extensions.
-- _Technologies:_ ReactJS, Next.JS, Redux, MongoDB, Git, Gitea, Java, NodeJS, Chrome-Extension, Python, C#, Jenkins
-- HPE Parner Connect: Tool Project for Hewlett Packard Enterprise
-- HPE Cloud United: PaaS Project for Hewlett Packard Enterprise
-- TripKicks Extension for _Chrome Browser_
+- Optimization of response times and code refactoring to improve scalability and maintainability.
+- Led CI/CD-related tasks, including Jenkins configuration and maintenance - Azure.
+- Worked with tools like SendGrid and Mailtrap for email integration and testing.
+- Temporarily assumed project leadership responsibilities.
+- _Technologies:_ ReactJS, Next.JS, Redux, MongoDB, Git, Gitea, Java, NodeJS, Chrome Extension, Python, C#, Jenkins
+- HPE Partner Connect: Tool project for Hewlett Packard Enterprise.
+- HPE Cloud United: PaaS project for Hewlett Packard Enterprise.
+- TripKicks: Chrome browser extension.
 
 `09/2019-12/2020`
 <span class="tag free">Consultant</span>
 **Software Developer Analyst (JEE / Arquitect)**, _Banco Central de Bolivia_, La Paz - Bolivia
 
-- Design and Development the new framework for core project in the bank with Java Enterprise Edition oriented for micro-deploys & GTIC-Lineament
-- Definition Layer components
-- Design and Development API Library
-- Design and Development Tool Application
-- Design and Development of application module for public calls
-- _Technologies:_ Java8, JEE( JTA, JPA, CDI, JAX-RS), ReacJS, Maven, Git, Wildfly17, Oracle, Jenkins, SonarQ
+- Design and development of a new framework for the bank's core project using Java EE, oriented towards micro-deployments and GTIC guidelines.
+- Definition of component layers.
+- API library design and development.
+- Application tool development.
+- Module development for public calls.
+- _Technologies:_ Java 8, JEE (JTA, JPA, CDI, JAX-RS), ReactJS, Maven, Git, Wildfly 17, Oracle, Jenkins, SonarQube.
 
 `09/2015-08/2019`
 <span class="tag perm">Permanent</span>
 **Software Architect for Core Project**, _Banco Union_, La Paz - Bolivia
 
-- Definition, Design, Development & Testing of a new framework for banking platform
-- Defining and implementing transversal projects in banking platform
-- Reporting Module
-- Interoperability Module
-- Register module
-- Deploy Pattern
-- UniKit Set Commponet on AngularJS
-- _Technologies:_ Java8, JEE (JTA, JPA, EJB, JAX-RS), AngularJS, Maven, Git, Wildfly15, Docker & Jenkins
-- _Responsibilities:_ Code Review, Deploy Project, CI/CD
+- Design, development, testing, and deployment of a new banking platform framework..
+- Led the architecture and implementation of a Micro-Kernel–based system tailored to the bank's core needs.
+- Oversaw the continuous integration and delivery processes using Docker, Jenkins and SonarQube.
+- Leadership in transversal projects across the banking system.
+- Modules: Reporting, Interoperability, Registry.
+- AngularJS component set: UniKit.
+- _Technologies:_ Java 8, JEE (JTA, JPA, EJB, JAX-RS), AngularJS, Maven, Git, Wildfly 15, Docker, Jenkins.
+- _Responsibilities:_ Code reviews, project deployments, CI/CD.
 
 `03/2015-09/2015`
 <span class="tag perm">Permanent</span>
 **Software Developer Analyst**, _ESPM - Empresa de Servicio de Pago Movil_, La Paz - Bolivia
 
-- Security module development
-- Authentication module development
-- _Technologies:_ Java6, Git, JPA, EJB, JSF, WebLogic10, Oracle
+- Security and authentication module development.
+- _Technologies:_ Java 6, Git, JPA, EJB, JSF, WebLogic 10, Oracle.
 
 `09/2014-02/2015`
 <span class="tag free">Consultant</span>
 **Software Developer Analyst**, _Servicio de Impuestos Nacionales_, La Paz - Bolivia
 
-- Platform development with Eclipse RCP-E3
-- _Technologies:_ Java6, RCP-E4, RCP-E3, Maven, JPA, AngularJS, JBoss7
+- Platform development using Eclipse RCP-E3.
+- _Technologies:_ Java 6, RCP-E4, RCP-E3, Maven, JPA, AngularJS, JBoss 7.
 
 `05/2014-08/2014`
 <span class="tag free">Consultant</span>
