@@ -15,7 +15,8 @@ Senior Software Engineer - Software Architect
 
 
 <div id="webaddress">
-<a href="https://yracnet.github.io/cv/yracnet@gmail.com"><span>My Email</span></a>
+<a href="mailto:yracnet@gmail.com"><span>My Email</span></a>
+<a href="https://yracnet.github.io/cv/"><span>My CV</span></a>
 <a href="https://www.github.com/yracnet/"><span>My Github</span></a>
 <a href="https://mvnrepository.com/artifact/com.github.yracnet"><span>My Jars</span></a>
 <a href="https://www.npmjs.com/~yracnet"><span>My Pkg</span></a>
