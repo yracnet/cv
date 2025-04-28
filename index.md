@@ -8,7 +8,7 @@ title: Willyams Y. H.
 Software Developer
 
 <br/>
-- Bachelor of Computer Systems. 
+- Bachelor of Computer Systems.
 - Degree in Computer Science from the "Universidad Mayor de San Andrés" - La Paz - Bolivia.
 - Experience in the analysis, development and evaluation of computer systems.
 - Training continues in the latest trends, technologies and paradigms.
@@ -24,35 +24,35 @@ Software Developer
 
 ### Technology
 
-- Functional Programming
-- Object-Oriented Programming
-- Web applications development
-- ReactJS, Redux, NextJS
-- JEE 6, JEE 8
-- Java Enterprise Architecture
-- Java Enterprise Servers as Wildfly, JBoss, Glassfish & WebLogic
-- Agile development; Scrum
+### Technical Skills
+- Software Architecture & System Design
+- Web Application Development (NodeJS, ReactJS, NextJS, ViteJS, Express)
+- DevOps (CI/CD, Docker, Infrastructure as Code)
+- Cloud Computing Basics (AWS, Azure concepts)
+- Database Management (MongoDB, Oracle, PostgreSQL)
+- Secure Software Development
+- Test Automation (SonarQube, Selenium basics)
 
 ### Personal Skills
 
-- Experience to design transversal modules
-- Critical thinking
-- Problem solving with pattern design
-- Apply best practice for software development
-- Team player
+- Agile Methodologies (Scrum, Kanban)
+- Project Management
+- Team Leadership
+- Critical Thinking & Problem Solving
+- Technical Documentation & Standardization
 
 ## Occupation
 
 ### Professional
 
-`03/2021-NOW`
+`03/2021-Present`
 <span class="tag remote">Remote Consultant</span>
-**Senior Software Engineer**, _ArganoUV_, New York - EU
+**Senior Software Engineer**, _ArganoUV_, New York - EEUU
 
-- Development and maintenance of systems, CMS, in different technologies
-- _Technologies:_ ReactJS, Next.JS, Redux, MongoDB, Git, Java, NodeJS, Chrome-Extension, Python, C#
-- HPE Parner Connect
-- HPE Cloud United
+- Development and maintenance of CMS systems and Chrome Extensions.
+- _Technologies:_ ReactJS, Next.JS, Redux, MongoDB, Git, Gitea, Java, NodeJS, Chrome-Extension, Python, C#, Jenkins
+- HPE Parner Connect: Tool Project for Hewlett Packard Enterprise
+- HPE Cloud United: PaaS Project for Hewlett Packard Enterprise
 - TripKicks Extension for _Chrome Browser_
 
 `09/2019-12/2020`
@@ -64,7 +64,7 @@ Software Developer
 - Design and Development API Library
 - Design and Development Tool Application
 - Design and Development of application module for public calls
-- _Technologies:_ Java8, JTA, JPA, CDI, JAX-RS, JSF, ReacJS, Maven, Git, Wildfly17, Oracle
+- _Technologies:_ Java8, JEE( JTA, JPA, CDI, JAX-RS), ReacJS, Maven, Git, Wildfly17, Oracle, Jenkins, SonarQ
 
 `09/2015-08/2019`
 <span class="tag perm">Permanent</span>
@@ -77,8 +77,8 @@ Software Developer
 - Register module
 - Deploy Pattern
 - UniKit Set Commponet on AngularJS
-- _Technologies:_ Java8, JTA, JPA, EJB, JAX-RS, AngularJS, Maven, Git, Wildfly15, Docker & Jenkins
-- _Responsibilities:_ Code Review, Deploy Project, Countinus Integration
+- _Technologies:_ Java8, JEE (JTA, JPA, EJB, JAX-RS), AngularJS, Maven, Git, Wildfly15, Docker & Jenkins
+- _Responsibilities:_ Code Review, Deploy Project, CI/CD
 
 `03/2015-09/2015`
 <span class="tag perm">Permanent</span>
@@ -125,7 +125,27 @@ Software Developer
 - PL-SQL to JAVA Error Tracking Design PL-SQL programming.
 - _Technologies:_ Java6, WebLogic, JSF Framework, PL-SQL, Oracle
 
-### Private Projects
+### OpenSource Projects
+
+`04/2025` [**ViteJS Extension - vite-plugin-ra-pages**](https://github.com/yracnet/vite-plugin-ra-pages)
+
+- ViteJS extension for React Admin. Vite plugin to automatically generate routes for React-Admin from a folder structure.
+
+`04/2025` [**ViteJS Extension - vite-plugin-ssr-config**](https://github.com/yracnet/vite-plugin-ssr-config)
+
+- ViteJS extension for React SSR. Vite plugin to support server-side rendering (SSR) for React applications.
+
+`04/2024` [**ViteJS Extension - vite-plugin-docker**](https://github.com/yracnet/vite-plugin-docker)
+
+- ViteJS extension for Docker. This plugin facilitates integration with Docker for building and running containers.
+
+`06/2023` [**ViteJS Extension - vite-plugin-api**](https://github.com/yracnet/vite-plugin-api-routes)
+
+- ViteJS extension for Express. This plugin enhances the functionality for backend development using Vite.
+
+`06/2022` [**NodeJS Lib - hsk-gt**](https://github.com/yracnet/hsk-gt)
+
+- Library for Node JS. I used Google Translate and made it available as a public service.
 
 `01/2020` [**ReactJS Component**](https://github.com/yracnet/ui-fast2)
 
@@ -159,6 +179,8 @@ Software Developer
 
 - UIComponent for show other page in iframe with interaction as MODAL like a ADF-PartialView
 
+(Archived projects available on GitHub)
+
 ## Education
 
 ### University
@@ -166,19 +188,16 @@ Software Developer
 `02/2003-12/2009` **Universidad Mayor de San Andres**
 
 - **Informatica / Computer**
-- Computer Systems Engineering
+- Bachelor’s Degree in Computer Systems Engineering
 
-`06/2015-12/2015` **Centro Psicopedagógico y de Investigación en Educación Superior**
+`07/2023-04/2025` **Universidad Autonoma Rene Grabriel Moreno**
 
-- **Diploma in Higher Education**
-- Leadership, Planning, Types of Learning, Evaluation, Motivation and Group Management
+- **Master's Degree in Strategic Management in Software Engineering**
+- Master's degree in Software Development and Engineering, with training in architecture, testing, DevOps, cloud computing, security, data engineering, and automation. I acquired skills in agile methodologies, leadership, project management, and continuous delivery. I integrated technical and practical knowledge to design, build, and deploy robust, secure, and efficient software aligned with business needs.
+Master's degree in Software Development and Engineering, with training in architecture, testing, DevOps, cloud computing, security, data engineering, and automation. - I acquired skills in agile methodologies, leadership, project management, and continuous delivery. I integrated technical and practical knowledge to design, build, and deploy robust, secure, and efficient software aligned with business needs.
+- Skills: Systems Architecture, Project Management, Agile Methodologies, Software Design, Team Leadership, DevOps, Docker, IaaS
 
-`01/2016-06/2016` **Centro Psicopedagógico y de Investigación en Educación Superior**
-
-- **Diploma in Research Methodologies**
-- Types of Research, Education Research, Qualitative and Quantitative Research
-
-`07/2009-03/2012` **Escuela de Gestión Publica Plurinacional**
+`07/2009-03/2010` **Escuela de Gestión Publica Plurinacional**
 
 - **Diploma in Information Security**
 - Incident Management
@@ -190,7 +209,22 @@ Software Developer
 - **Diploma in IT Systems Audit**
 - ISO-27001, ISO-27002, COBIT-2015, ISO-31000
 
+`01/2016-06/2016` **Centro Psicopedagógico y de Investigación en Educación Superior**
+
+- **Diploma in Research Methodologies**
+- Types of Research, Education Research, Qualitative and Quantitative Research
+
 ### Training & Courses
+
+`00/2025-00/2025` **D365 PSA**, _UDEMY_BUSSINES_, Online
+
+`00/2024-00/2024` **Contentfull Certified Professional**, _UDEMY_BUSSINES_, Online
+
+`00/2024-00/2024` **Salesforce Certified AI Associate**, _UDEMY_BUSSINES_, Online
+
+`00/2019-00/2019` **ReactJS**, _UDEMY_, Online
+
+- React with Hooks, MERN, JWT, OAuth, CRUD
 
 `06/2018-07/2018` **Introducción a Machine Learning**, _Escuela Militar de Ingeniería - Postgrado_, La Paz - Bolivia
 
@@ -213,59 +247,6 @@ Software Developer
 - Training Oracle ADF-Faces y TaskFlow y EJB Technology
 
 `04/2012-05/2012` **Inglés**, _Universidad Aquino Bolivia_, La Paz - Bolivia
-
-## Tools & Others
-
-### Environment Systems
-
-- Windows
-- Linux
-
-### Servers
-
-- WebLogic
-- Payara
-- JBoss
-- WildFly
-
-### IDE's
-
-- JDeveloper
-- NetBeans
-- .NET
-- Elipse
-- Toad
-
-### Technology
-
-- ReactJS
-- AngularJS 1.2
-- JPA / JTA JEE
-- .NET
-- Maven
-- NodeJS - NPM - YARN
-- QA - SONAR Q
-- GIT - SCM MANAGER
-- DOCKER - Portainer
-
-### Programming Languages
-
-- PF y POO
-- C/C++
-- PHP 5
-- Javascript
-- Java EE 6 y 7
-- Java 8 - PF
-- Visual Basic 6,x y .NET
-- SQL - Standar / PL-SQL / TRANSACT
-
-### Data Manager
-
-- SQL Server 2005
-- ORACLE SQL 10i
-- MySQL 5
-- PostgresSQL Lite / Derby
-- DBeaver
 
 ## References
 
