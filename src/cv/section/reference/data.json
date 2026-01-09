@@ -1,0 +1,298 @@
+{
+  "title": {
+    "es": "Referencias Personales",
+    "en": "Personal References"
+  },
+  "items": [
+    {
+      "company": "Argano UV - United Virtualities",
+      "contacts": [
+        {
+          "name": "Guadalupe Garcia Valls",
+          "role": {
+            "es": "People Generalist - ARG GSS People",
+            "en": "People Generalist - ARG GSS People"
+          },
+          "items": [
+            {
+              "type": { "es": "Correo", "en": "Email" },
+              "value": "guadalupe.garciavalls@argano.com"
+            }
+          ]
+        },
+        {
+          "name": "Jose Segado",
+          "role": {
+            "es": "Vicepresidente I - Delivery | CNT Delivery Client Experience",
+            "en": "Vice President I - Delivery | CNT Delivery Client Experience"
+          },
+          "items": [
+            {
+              "type": { "es": "Correo", "en": "Email" },
+              "value": "jj.segado@argano.com"
+            }
+          ]
+        },
+        {
+          "name": "Gabriel Gotelli",
+          "role": {
+            "es": "Manager - Delivery | CNT Delivery Client Experience",
+            "en": "Manager - Delivery | CNT Delivery Client Experience"
+          },
+          "items": [
+            {
+              "type": { "es": "Correo", "en": "Email" },
+              "value": "gabriel.gotelli@argano.com"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+54 5492214007157"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Banco Central de Bolivia",
+      "contacts": [
+        {
+          "name": "Lic. Rodrigo Razzit",
+          "role": {
+            "es": "Subgerente de Sistemas de Información",
+            "en": "Deputy Manager of Information Systems"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2409090"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 70263516"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "BANCO UNION S.A.",
+      "contacts": [
+        {
+          "name": "Ing. Reynaldo Arcani",
+          "role": {
+            "es": "Jefe de Desarrollo y Tecnologías Core",
+            "en": "Head of Core Development and Technologies"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2171717"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 73009607"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ESPM (Empresa de Servicio de Pago Móvil)",
+      "contacts": [
+        {
+          "name": "Ing. Gonzalo Castillo",
+          "role": {
+            "es": "Jefe de Tecnologías de Información y Comunicación",
+            "en": "Head of Information and Communication Technologies"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 72550363"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "SIN (Servicio de Impuestos Nacionales - Bolivia)",
+      "contacts": [
+        {
+          "name": "Ing. Vladimir Terán",
+          "role": {
+            "es": "Gerente de Tecnologías de Información y Comunicación",
+            "en": "IT and Communications Manager"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2203572"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2606060"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "AXS (AXS Bolivia)",
+      "contacts": [
+        {
+          "name": "Lic. Marcelo Terán",
+          "role": {
+            "es": "Jefe de Sistemas - AXS Bolivia",
+            "en": "Head of Systems - AXS Bolivia"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2792244"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2971111"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Ministerio de Salud",
+      "contacts": [
+        {
+          "name": "Lic. Edwin Choqueticlla",
+          "role": {
+            "es": "Jefe de Recaudaciones",
+            "en": "Head of Revenue Collection"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 73037763"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 22482233"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 22495086"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "BID (Banco Interamericano de Desarrollo - Bolivia)",
+      "contacts": [
+        {
+          "name": "Ing. Marlene Zoraida Arguello",
+          "role": {
+            "es": "Especialista Financiero - BID Bolivia",
+            "en": "Financial Specialist - IDB Bolivia"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2217700"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2217723"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Ministerio de Economía y Finanzas (Dirección de Sistemas - Bolivia)",
+      "contacts": [
+        {
+          "name": "Ing. Roció Quinteros Villanueva",
+          "role": {
+            "es": "Jefe de Unidad de Desarrollo y Producción",
+            "en": "Head of Development and Production Unit"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2201833"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2201391"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ENTEL SA (Empresa Nacional de Telecomunicaciones - Bolivia)",
+      "contacts": [
+        {
+          "name": "Ing. Horacio Villareal",
+          "role": {
+            "es": "Jefe de Desarrollo de Aplicación CORE",
+            "en": "Head of CORE Application Development"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 72550050"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2122357"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "INTERSOFT BOLIVIA - SA",
+      "contacts": [
+        {
+          "name": "Ing. Ivan Montaño",
+          "role": {
+            "es": "Jefe de Proyectos InterSoft",
+            "en": "InterSoft Project Manager"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2442430"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "FAB (Comando General de la Fuerza Aérea Boliviana)",
+      "contacts": [
+        {
+          "name": "Tte. Cnel. DIM. Rodrigo Mendizábal German",
+          "role": {
+            "es": "Director General de Informática",
+            "en": "General Director of Information Technology"
+          },
+          "items": [
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 72001841"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2642000"
+            },
+            {
+              "type": { "es": "Telefono", "en": "Phone" },
+              "value": "+591 2642001"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

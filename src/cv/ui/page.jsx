@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-const Page = styled.main`
+const Page = styled.div`
+  margin: 5mm 0;
   width: 210mm;
   min-height: 297mm;
   background: #ffffff;
@@ -10,10 +11,8 @@ const Page = styled.main`
   font-size: 11pt;
   line-height: 1.45;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
-  > * {
-    margin: 20mm 15mm 0mm 20mm;
-    page-break-inside: avoid;
-  }
+  padding: 20mm 0 15mm 20mm;
+  page-break-inside: avoid;
   @media print {
     box-shadow: none;
     margin: 0;
