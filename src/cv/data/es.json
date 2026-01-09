@@ -1,0 +1,580 @@
+{
+  "meta": {
+    "defaultLanguage": "es",
+    "availableLanguages": ["en", "es"],
+    "lastUpdate": "2026-01-01"
+  },
+
+  "profile": {
+    "name": "Willyams Ricardo Yujra Huanca",
+    "picture": "/images/foto.jpg",
+    "headline": [
+      "Ingeniero de Software Senior",
+      "Ingeniero de Performance de Aplicaciones",
+      "Arquitecto de Software"
+    ],
+    "summary": [
+      "Maestría en Dirección Estratégica en Ingeniería de Software de la Universidad Autónoma René Gabriel Moreno.",
+      "Título de Ingeniería en Sistemas de Computación de la Universidad Mayor de San Andrés.",
+      "Experiencia en análisis, desarrollo y evaluación de sistemas informáticos.",
+      "Formación continua en tecnologías modernas, paradigmas y buenas prácticas."
+    ],
+    "contact": [
+      {
+        "type": "Email",
+        "label": "Correo",
+        "value": "yracnet@gmail.com",
+        "icon": "mail"
+      },
+      {
+        "type": "website",
+        "label": "Sitio Web",
+        "value": "https://yracnet.github.io/cv/",
+        "icon": "globe"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "value": "https://github.com/yracnet",
+        "icon": "github"
+      },
+      {
+        "type": "npm",
+        "label": "NPM",
+        "value": "https://www.npmjs.com/~yracnet",
+        "icon": "npm"
+      },
+      {
+        "type": "maven",
+        "label": "Maven",
+        "value": "https://mvnrepository.com/artifact/com.github.yracnet",
+        "icon": "package"
+      },
+      {
+        "type": "dev-to",
+        "label": "Tutoriales",
+        "value": "https://dev.to/yracnet",
+        "icon": "projects"
+      }
+    ]
+  },
+
+  "skills": [
+    {
+      "label": "Habilidades Técnicas",
+      "items": [
+        "Arquitectura de Software y Diseño de Sistemas",
+        {
+          "value": "Java Enterprise Edition",
+          "details": ["JTA", "JPA", "JAX-RS", "WebLogic", "Wildfly", "Payara"]
+        },
+        {
+          "value": "Desarrollo de Aplicaciones Web",
+          "details": ["NodeJS", "ReactJS", "NextJS", "ViteJS", "Express"]
+        },
+        {
+          "value": "DevOps",
+          "details": [
+            "CI/CD",
+            "Docker",
+            "Infraestructura como Código",
+            "Gitea Actions"
+          ]
+        },
+        {
+          "value": "Computación en la Nube",
+          "details": ["AWS", "Conceptos de Azure", "Cloud Sigma"]
+        },
+        {
+          "value": "Gestión de Bases de Datos",
+          "details": ["MongoDB", "Oracle", "PostgreSQL"]
+        },
+        "Desarrollo de Software Seguro",
+        {
+          "value": "Automatización de Pruebas",
+          "details": ["SonarQube", "Selenium básico"]
+        }
+      ]
+    },
+    {
+      "label": "Habilidades Profesionales y Metodológicas",
+      "items": [
+        "Metodologías Ágiles (Scrum, Kanban)",
+        "Gestión de Proyectos",
+        "Liderazgo de Equipos",
+        "Pensamiento Crítico y Resolución de Problemas",
+        "Documentación Técnica y Estandarización"
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "id": "arganouv",
+      "company": "ArganoUV",
+      "location": "Nueva York, EE. UU.",
+      "modality": "Consultor Remoto",
+      "period": { "from": "2021-03", "to": "2025-12" },
+      "role": "Ingeniero de Software Senior",
+      "description": [
+        "Desarrollo y mantenimiento de sistemas CMS y extensiones de Chrome.",
+        "Optimización de tiempos de respuesta y refactorización en proyetos C# y React.",
+        "Liderazgo de tareas relacionadas con CI/CD, incluyendo configuración de Jenkins e integración con Azure.",
+        "Integración de correos electrónicos mediante SendGrid y Mailtrap.",
+        "Asunción temporal de responsabilidades de liderazgo de proyectos."
+      ],
+      "projects": [
+        "Asistente Estrategico apoyado por IA",
+        "HPE Partner Connect - Proyecto de herramientas para Hewlett Packard Enterprise.",
+        "HPE Cloud United - Proyecto PaaS para Hewlett Packard Enterprise.",
+        "TripKicks - Extensión de navegador Chrome."
+      ],
+      "technologies": [
+        "ReactJS",
+        "NextJS",
+        "Redux",
+        "MongoDB",
+        "NodeJS",
+        "Java",
+        "Python",
+        "C#",
+        "Jenkins",
+        "Git",
+        "Gitea",
+        "Extensiones Chrome"
+      ]
+    },
+    {
+      "id": "bcb",
+      "company": "Banco Central de Bolivia",
+      "location": "La Paz, Bolivia",
+      "modality": "Consultor",
+      "period": { "from": "2019-09", "to": "2020-12" },
+      "role": "Analista / Arquitecto de Software",
+      "description": [
+        "Diseño y desarrollo de un nuevo framework Java EE alineado con las guías GTIC.",
+        "Definición de capas de componentes y arquitectura modular.",
+        "Diseño y desarrollo de librerías API.",
+        "Desarrollo de herramientas y módulos de atención pública."
+      ],
+      "technologies": [
+        "Java 8",
+        "JEE (JTA, JPA, CDI, JAX-RS)",
+        "ReactJS",
+        "Maven",
+        "Git",
+        "Wildfly 17",
+        "Oracle",
+        "Jenkins",
+        "SonarQube"
+      ]
+    },
+    {
+      "id": "banco-union",
+      "company": "Banco Unión",
+      "location": "La Paz, Bolivia",
+      "modality": "Permanente",
+      "period": { "from": "2015-09", "to": "2019-08" },
+      "role": "Arquitecto de Software Core",
+      "description": [
+        "Diseño, desarrollo, pruebas e implementación de un nuevo framework de plataforma bancaria.",
+        "Arquitectura e implementación de un sistema basado en Micro-Kernel.",
+        "Liderazgo en proyectos transversales del sistema bancario.",
+        "Integración y entrega continua utilizando Docker, Jenkins y SonarQube."
+      ],
+      "modules": [
+        "Reportes",
+        "Interoperabilidad",
+        "Registro",
+        "UniKit (conjunto de componentes AngularJS)"
+      ],
+      "responsibilities": [
+        "Revisiones de código",
+        "Pipelines CI/CD",
+        "Despliegues en producción"
+      ],
+      "technologies": [
+        "Java 8",
+        "JEE (JTA, JPA, EJB, JAX-RS)",
+        "AngularJS",
+        "Maven",
+        "Git",
+        "Wildfly 15",
+        "Docker",
+        "Jenkins"
+      ]
+    },
+    {
+      "id": "espm",
+      "company": "ESPM - Empresa de Servicio de Pago Móvil",
+      "location": "La Paz, Bolivia",
+      "modality": "Permanente",
+      "period": { "from": "2015-03", "to": "2015-09" },
+      "role": "Analista / Desarrollador de Software",
+      "description": ["Desarrollo de módulos de seguridad y autenticación."],
+      "technologies": [
+        "Java 6",
+        "Git",
+        "JPA",
+        "EJB",
+        "JSF",
+        "WebLogic 10",
+        "Oracle"
+      ]
+    },
+    {
+      "id": "sin",
+      "company": "Servicio de Impuestos Nacionales",
+      "location": "La Paz, Bolivia",
+      "modality": "Consultor",
+      "period": { "from": "2014-09", "to": "2015-02" },
+      "role": "Analista / Desarrollador de Software",
+      "description": ["Desarrollo de la plataforma utilizando Eclipse RCP-E3."],
+      "technologies": [
+        "Java 6",
+        "RCP-E3",
+        "RCP-E4",
+        "Maven",
+        "JPA",
+        "AngularJS",
+        "JBoss 7"
+      ]
+    },
+    {
+      "id": "axs",
+      "company": "AXS Bolivia",
+      "location": "La Paz, Bolivia",
+      "modality": "Consultor",
+      "period": { "from": "2014-05", "to": "2014-08" },
+      "role": "Desarrollador de Software",
+      "technologies": ["Java 5", "Java 6", "WebLogic", "JSF"]
+    },
+    {
+      "id": "bid",
+      "company": "Banco Interamericano de Desarrollo",
+      "location": "La Paz, Bolivia",
+      "modality": "Consultor",
+      "period": { "from": "2013-07", "to": "2014-02" },
+      "role": "Analista e Implementador de Software",
+      "description": [
+        "Desarrollo del módulo SIMGA - SIGEP Migration.",
+        "Mantenimiento del sistema de acuerdos de financiamiento externo.",
+        "Análisis y diseño de base de datos Oracle.",
+        "Programación PL-SQL.",
+        "Capacitación e implementación de SIGEP-SIAP."
+      ],
+      "technologies": [
+        "Java 6",
+        "WebLogic",
+        "ADF Framework",
+        "PL-SQL",
+        "Oracle"
+      ]
+    },
+    {
+      "id": "entel",
+      "company": "Empresa Nacional de Telecomunicaciones",
+      "location": "La Paz, Bolivia",
+      "modality": "Permanente",
+      "period": { "from": "2010-03", "to": "2013-06" },
+      "role": "Analista / Desarrollador de Software",
+      "description": [
+        "Desarrollo de módulos de seguridad y web utilizando JSF y ADF.",
+        "Diseño de componentes reutilizables y arquitecturas JEE.",
+        "Análisis de base de datos y programación PL-SQL.",
+        "Definición de estándares de desarrollo y casos de prueba."
+      ],
+      "technologies": [
+        "Java 6",
+        "WebLogic",
+        "JSF",
+        "ADF Framework",
+        "PL-SQL",
+        "Oracle"
+      ]
+    }
+  ],
+
+  "opensource": [
+    {
+      "date": "2025-04",
+      "name": "vite-plugin-ra-pages",
+      "url": "https://github.com/yracnet/vite-plugin-ra-pages",
+      "description": "Plugin de Vite para generar automáticamente rutas de React-Admin desde la estructura de carpetas."
+    },
+    {
+      "date": "2025-04",
+      "name": "vite-plugin-ssr-config",
+      "url": "https://github.com/yracnet/vite-plugin-ssr-config",
+      "description": "Plugin de Vite para habilitar renderizado del lado del servidor (SSR) en aplicaciones React."
+    },
+    {
+      "date": "2024-04",
+      "name": "vite-plugin-docker",
+      "url": "https://github.com/yracnet/vite-plugin-docker",
+      "description": "Plugin de Vite para simplificar la integración con Docker."
+    },
+    {
+      "date": "2023-06",
+      "name": "vite-plugin-api",
+      "url": "https://github.com/yracnet/vite-plugin-api-routes",
+      "description": "Plugin de Vite para routing de backend en Express."
+    },
+    {
+      "date": "2022-06",
+      "name": "hsk-gt",
+      "url": "https://github.com/yracnet/hsk-gt",
+      "description": "Librería NodeJS que expone Google Translate como servicio público."
+    }
+  ],
+
+  "education": [
+    {
+      "group": "Universidad",
+      "items": [
+        {
+          "period": { "from": "2003-02", "to": "2009-12" },
+          "institution": "Universidad Mayor de San Andrés",
+          "degree": "Ingeniería en Sistemas de Computación",
+          "field": "Informática / Computación",
+          "details": [
+            "Miembro de la Sociedad Cientifica - Robotica.",
+            "Auxiliar de INF-111, INF-121 y INF-131",
+            "Miembro del Centro de Estudiantes - Area Academica.",
+            "Participacion activa en Ferias Universitarias."
+          ]
+        },
+        {
+          "period": { "from": "2023-07", "to": "2025-04" },
+          "institution": "Universidad Autónoma René Gabriel Moreno",
+          "degree": "Maestría en Dirección Estratégica en Ingeniería de Software",
+          "field": "Desarrollo e Ingeniería de Software",
+          "details": [
+            "Arquitectura, testing, DevOps, cloud computing, seguridad, ingeniería de datos y automatización.",
+            "Habilidades en metodologías ágiles, liderazgo, gestión de proyectos y entrega continua.",
+            "Diseño, construcción y despliegue de software robusto, seguro y eficiente alineado con las necesidades del negocio."
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Diplomas",
+      "items": [
+        {
+          "period": { "from": "2009-07", "to": "2010-03" },
+          "institution": "Escuela de Gestión Pública Plurinacional",
+          "degree": "Diploma en Seguridad Informática",
+          "details": [
+            "Gestión de Incidentes",
+            "Plan y mecanismos de seguridad",
+            "Informática Forense"
+          ]
+        },
+        {
+          "period": { "from": "2019-11", "to": "2020-04" },
+          "institution": "Universidad del Valle",
+          "degree": "Diploma en Auditoría de Sistemas de Información",
+          "details": ["ISO-27001", "ISO-27002", "COBIT-2015", "ISO-31000"]
+        },
+        {
+          "period": { "from": "2016-01", "to": "2016-06" },
+          "institution": "Centro Psicopedagógico y de Investigación en Educación Superior",
+          "degree": "Diploma en Metodologías de Investigación",
+          "details": [
+            "Tipos de investigación, investigación educativa, investigación cualitativa y cuantitativa"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Formación y Cursos",
+      "items": [
+        {
+          "period": { "from": "2025-01", "to": "2025-01" },
+          "institution": "UDEMY_BUSSINES",
+          "course": "D365 PSA",
+          "type": "Online"
+        },
+        {
+          "period": { "from": "2024-01", "to": "2024-01" },
+          "institution": "UDEMY_BUSSINES",
+          "course": "Contentful Certified Professional",
+          "type": "Online"
+        },
+        {
+          "period": { "from": "2019-01", "to": "2019-01" },
+          "institution": "UDEMY",
+          "course": "ReactJS",
+          "details": ["React con Hooks", "MERN", "JWT", "OAuth", "CRUD"]
+        }
+      ]
+    }
+  ],
+
+  "references": [
+    {
+      "company": "Argano UV- United Virtualities",
+      "contacts": [
+        {
+          "name": "Guadalupe Garcia Valls",
+          "role": "People Generalist - ARG GSS People",
+          "items": [
+            { "type": "Email", "value": "guadalupe.garciavalls@argano.com" }
+          ]
+        },
+        {
+          "name": "Jose Segado",
+          "role": "Vicepresidente I – Delivery • CNT Delivery Client Experience",
+          "items": [{ "type": "Email", "value": "jj.segado@argano.com" }]
+        },
+        {
+          "name": "Gabriel Gotelli",
+          "role": "Manager – Delivery • CNT Delivery Client Experience",
+          "items": [
+            { "type": "Email", "value": "gabriel.gotelli@argano.com" },
+            { "type": "Phone", "value": "+54 5492214007157" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Banco Central de Bolivia",
+      "contacts": [
+        {
+          "name": "Lic. Rodrigo Razzit",
+          "role": "Subgerente de Sistemas de Información",
+          "items": [
+            { "type": "Phone", "value": "+591 2409090" },
+            { "type": "Phone", "value": "+591 70263516" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "BANCO UNION S.A.",
+      "contacts": [
+        {
+          "name": "Ing. Reynaldo Arcani",
+          "role": "Jefe de Desarrollo y Tecnologías Core",
+          "items": [
+            { "type": "Phone", "value": "+591 2171717" },
+            { "type": "Phone", "value": "+591 73009607" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ESPM (Empresa de Servicio de Pago Móvil)",
+      "contacts": [
+        {
+          "name": "Ing. Gonzalo Castillo",
+          "role": "Jefe de Tecnologías de Información y Comunicación",
+          "items": [{ "type": "Phone", "value": "+591 72550363" }]
+        }
+      ]
+    },
+    {
+      "company": "SIN (Servicio de Impuestos Nacionales - Bolivia)",
+      "contacts": [
+        {
+          "name": "Ing. Vladimir Terán",
+          "role": "Gerente de Tecnologías de Información y Comunicación",
+          "items": [
+            { "type": "Phone", "value": "+591 2203572" },
+            { "type": "Phone", "value": "+591 2606060" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "AXS (AXS Bolivia)",
+      "contacts": [
+        {
+          "name": "Lic. Marcelo Terán",
+          "role": "Jefe de Sistemas – AXS Bolivia",
+          "items": [
+            { "type": "Phone", "value": "+591 2792244" },
+            { "type": "Phone", "value": "+591 2971111" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Ministerio de Salud",
+      "contacts": [
+        {
+          "name": "Lic. Edwin Choqueticlla",
+          "role": "Jefe de Recaudaciones",
+          "items": [
+            { "type": "Phone", "value": "+591 73037763" },
+            { "type": "Phone", "value": "+591 22482233" },
+            { "type": "Phone", "value": "+591 22495086" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "BID (Banco Inter-Americano de Desarrollo - Bolivia)",
+      "contacts": [
+        {
+          "name": "Ing. Marlene Zoraida Arguello",
+          "role": "Especialista Financiero – BID Bolivia",
+          "items": [
+            { "type": "Phone", "value": "+591 2217700" },
+            { "type": "Phone", "value": "+591 2217723" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Ministerio de Economía y Finanzas (Dirección de Sistemas - Bolivia)",
+      "contacts": [
+        {
+          "name": "Ing. Roció Quinteros Villanueva",
+          "role": "Jefe de Unidad de Desarrollo y Producción",
+          "items": [
+            { "type": "Phone", "value": "+591 2201833" },
+            { "type": "Phone", "value": "+591 2201391" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ENTEL SA (Empresa Nacional de Telecomunicaciones - Bolivia)",
+      "contacts": [
+        {
+          "name": "Ing. Horacio Villareal",
+          "role": "Jefe de Desarrollo de Aplicación CORE",
+          "items": [
+            { "type": "Phone", "value": "+591 72550050" },
+            { "type": "Phone", "value": "+591 2122357" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "INTERSOFT BOLIVIA - SA",
+      "contacts": [
+        {
+          "name": "Ing. Ivan Montaño",
+          "role": "Jefe de Proyectos InterSoft",
+          "items": [{ "type": "Phone", "value": "+591 2442430" }]
+        }
+      ]
+    },
+    {
+      "company": "FAB (Comando General de la Fuerza Aérea Bolivia)",
+      "contacts": [
+        {
+          "name": "Tte. Cnel. DIM. Rodrigo Mendizábal German",
+          "role": "Director General de Informática",
+          "items": [
+            { "type": "Phone", "value": "+591 72001841" },
+            { "type": "Phone", "value": "+591 2642000" },
+            { "type": "Phone", "value": "+591 2642001" }
+          ]
+        }
+      ]
+    }
+  ]
+}

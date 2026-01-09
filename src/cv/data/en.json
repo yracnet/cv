@@ -1,0 +1,573 @@
+{
+  "profile": {
+    "name": "Willyams Ricardo Yujra Huanca",
+    "picture": "/images/foto.jpg",
+    "headline": [
+      "Senior Software Engineer",
+      "Application Performance Engineer",
+      "Software Architect"
+    ],
+    "summary": [
+      "Master's Degree in Strategic Management in Software Engineering from Universidad Autónoma René Gabriel Moreno.",
+      "Bachelor's Degree in Computer Systems Engineering from Universidad Mayor de San Andrés.",
+      "Experience in analysis, development, and evaluation of computer systems.",
+      "Continuous training in modern technologies, paradigms, and best practices."
+    ],
+    "contact": [
+      {
+        "type": "Email",
+        "label": "Email",
+        "value": "yracnet@gmail.com",
+        "icon": "mail"
+      },
+      {
+        "type": "website",
+        "label": "Website",
+        "value": "https://yracnet.github.io/cv/",
+        "icon": "globe"
+      },
+      {
+        "type": "github",
+        "label": "GitHub",
+        "value": "https://github.com/yracnet",
+        "icon": "github"
+      },
+      {
+        "type": "npm",
+        "label": "NPM",
+        "value": "https://www.npmjs.com/~yracnet",
+        "icon": "npm"
+      },
+      {
+        "type": "maven",
+        "label": "Maven",
+        "value": "https://mvnrepository.com/artifact/com.github.yracnet",
+        "icon": "package"
+      },
+      {
+        "type": "dev-to",
+        "label": "Tutorials",
+        "value": "https://dev.to/yracnet",
+        "icon": "projects"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "label": "Technical Skills",
+      "items": [
+        "Software Architecture & System Design",
+        {
+          "value": "Java Enterprise Edition",
+          "details": ["JTA", "JPA", "JAX-RS", "WebLogic", "Wildfly", "Payara"]
+        },
+        {
+          "value": "Web Application Development",
+          "details": ["NodeJS", "ReactJS", "NextJS", "ViteJS", "Express"]
+        },
+        {
+          "value": "DevOps",
+          "details": [
+            "CI/CD",
+            "Docker",
+            "Infrastructure as Code",
+            "Gitea Actions"
+          ]
+        },
+        {
+          "value": "Cloud Computing Basics",
+          "details": ["AWS", "Azure concepts", "Cloud Sigma"]
+        },
+        {
+          "value": "Database Management",
+          "details": ["MongoDB", "Oracle", "PostgreSQL"]
+        },
+        "Secure Software Development",
+        {
+          "value": "Test Automation",
+          "details": ["SonarQube", "basic Selenium"]
+        }
+      ]
+    },
+    {
+      "label": "Professional & Methodological Skills",
+      "items": [
+        "Agile Methodologies - Scrum)",
+        "Project Management",
+        "Team Leadership",
+        "Critical Thinking & Problem Solving",
+        "Technical Documentation & Standardization"
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "id": "arganouv",
+      "company": "ArganoUV",
+      "location": "New York, USA",
+      "modality": "Remote Consultant",
+      "period": { "from": "2021-03", "to": "2025-12" },
+      "role": "Senior Software Engineer",
+      "description": [
+        "Development and maintenance of CMS systems and Chrome Extensions.",
+        "Optimization of response times and large-scale refactoring for scalability and maintainability.",
+        "Leadership of CI/CD-related tasks including Jenkins configuration and Azure integration.",
+        "Email integrations using SendGrid and Mailtrap.",
+        "Temporary assumption of project leadership responsibilities."
+      ],
+      "projects": [
+        "HPE Partner Connect - Tool project for Hewlett Packard Enterprise.",
+        "HPE Cloud United - PaaS project for Hewlett Packard Enterprise.",
+        "TripKicks - Chrome browser extension."
+      ],
+      "technologies": [
+        "ReactJS",
+        "NextJS",
+        "Redux",
+        "MongoDB",
+        "NodeJS",
+        "Java",
+        "Python",
+        "C#",
+        "Jenkins",
+        "Git",
+        "Gitea",
+        "Chrome Extensions"
+      ]
+    },
+
+    {
+      "id": "bcb",
+      "company": "Banco Central de Bolivia",
+      "location": "La Paz, Bolivia",
+      "modality": "Consultant",
+      "period": { "from": "2019-09", "to": "2020-12" },
+      "role": "Software Developer Analyst / Architect",
+      "description": [
+        "Design and development of a new Java EE framework aligned with GTIC guidelines.",
+        "Definition of component layers and modular architecture.",
+        "API library design and development.",
+        "Application tooling and public-call module development."
+      ],
+      "technologies": [
+        "Java 8",
+        "JEE (JTA, JPA, CDI, JAX-RS)",
+        "ReactJS",
+        "Maven",
+        "Git",
+        "Wildfly 17",
+        "Oracle",
+        "Jenkins",
+        "SonarQube"
+      ]
+    },
+
+    {
+      "id": "banco-union",
+      "company": "Banco Unión",
+      "location": "La Paz, Bolivia",
+      "modality": "Permanent",
+      "period": { "from": "2015-09", "to": "2019-08" },
+      "role": "Software Architect for Core Project",
+      "description": [
+        "Design, development, testing, and deployment of a new banking platform framework.",
+        "Architecture and implementation of a Micro-Kernel-based system.",
+        "Leadership in transversal projects across the banking system.",
+        "Continuous integration and delivery using Docker, Jenkins and SonarQube."
+      ],
+      "modules": [
+        "Reporting",
+        "Interoperability",
+        "Registry",
+        "UniKit (AngularJS component set)"
+      ],
+      "responsibilities": [
+        "Code reviews",
+        "CI/CD pipelines",
+        "Production deployments"
+      ],
+      "technologies": [
+        "Java 8",
+        "JEE (JTA, JPA, EJB, JAX-RS)",
+        "AngularJS",
+        "Maven",
+        "Git",
+        "Wildfly 15",
+        "Docker",
+        "Jenkins"
+      ]
+    },
+
+    {
+      "id": "espm",
+      "company": "ESPM - Empresa de Servicio de Pago Móvil",
+      "location": "La Paz, Bolivia",
+      "modality": "Permanent",
+      "period": { "from": "2015-03", "to": "2015-09" },
+      "role": "Software Developer Analyst",
+      "description": ["Development of security and authentication modules."],
+      "technologies": [
+        "Java 6",
+        "Git",
+        "JPA",
+        "EJB",
+        "JSF",
+        "WebLogic 10",
+        "Oracle"
+      ]
+    },
+
+    {
+      "id": "sin",
+      "company": "Servicio de Impuestos Nacionales",
+      "location": "La Paz, Bolivia",
+      "modality": "Consultant",
+      "period": { "from": "2014-09", "to": "2015-02" },
+      "role": "Software Developer Analyst",
+      "description": ["Platform development using Eclipse RCP-E3."],
+      "technologies": [
+        "Java 6",
+        "RCP-E3",
+        "RCP-E4",
+        "Maven",
+        "JPA",
+        "AngularJS",
+        "JBoss 7"
+      ]
+    },
+
+    {
+      "id": "axs",
+      "company": "AXS Bolivia",
+      "location": "La Paz, Bolivia",
+      "modality": "Consultant",
+      "period": { "from": "2014-05", "to": "2014-08" },
+      "role": "Software Developer",
+      "technologies": ["Java 5", "Java 6", "WebLogic", "JSF"]
+    },
+
+    {
+      "id": "bid",
+      "company": "Inter-American Development Bank",
+      "location": "La Paz, Bolivia",
+      "modality": "Consultant",
+      "period": { "from": "2013-07", "to": "2014-02" },
+      "role": "Developer Analyst and Implementer",
+      "description": [
+        "Development of the SIMGA - SIGEP Migration Module.",
+        "Maintenance of the External Financing Agreement System.",
+        "Oracle database analysis and design.",
+        "PL-SQL programming.",
+        "SIGEP-SIAP training and implementation."
+      ],
+      "technologies": [
+        "Java 6",
+        "WebLogic",
+        "ADF Framework",
+        "PL-SQL",
+        "Oracle"
+      ]
+    },
+
+    {
+      "id": "entel",
+      "company": "Empresa Nacional de Telecomunicaciones",
+      "location": "La Paz, Bolivia",
+      "modality": "Permanent",
+      "period": { "from": "2010-03", "to": "2013-06" },
+      "role": "Software Developer Analyst",
+      "description": [
+        "Development of security and web modules using JSF and ADF.",
+        "Design of reusable components and JEE architectures.",
+        "Database analysis and PL-SQL programming.",
+        "Definition of development standards and test cases."
+      ],
+      "technologies": [
+        "Java 6",
+        "WebLogic",
+        "JSF",
+        "ADF Framework",
+        "PL-SQL",
+        "Oracle"
+      ]
+    }
+  ],
+
+  "opensource": [
+    {
+      "date": "2025-04",
+      "name": "vite-plugin-ra-pages",
+      "url": "https://github.com/yracnet/vite-plugin-ra-pages",
+      "description": "Vite plugin to automatically generate React-Admin routes from folder structure."
+    },
+    {
+      "date": "2025-04",
+      "name": "vite-plugin-ssr-config",
+      "url": "https://github.com/yracnet/vite-plugin-ssr-config",
+      "description": "Vite plugin to support server-side rendering (SSR) for React applications."
+    },
+    {
+      "date": "2024-04",
+      "name": "vite-plugin-docker",
+      "url": "https://github.com/yracnet/vite-plugin-docker",
+      "description": "Vite plugin to simplify Docker integration."
+    },
+    {
+      "date": "2023-06",
+      "name": "vite-plugin-api",
+      "url": "https://github.com/yracnet/vite-plugin-api-routes",
+      "description": "Vite plugin for Express backend routing."
+    },
+    {
+      "date": "2022-06",
+      "name": "hsk-gt",
+      "url": "https://github.com/yracnet/hsk-gt",
+      "description": "NodeJS library exposing Google Translate as a public service."
+    }
+  ],
+
+  "education": [
+    {
+      "group": "University",
+      "items": [
+        {
+          "period": { "from": "2003-02", "to": "2009-12" },
+          "institution": "Universidad Mayor de San Andrés",
+          "degree": "Bachelor’s Degree in Computer Systems Engineering",
+          "field": "Informatics / Computer"
+        },
+        {
+          "period": { "from": "2023-07", "to": "2025-04" },
+          "institution": "Universidad Autónoma René Gabriel Moreno",
+          "degree": "Master's Degree in Strategic Management in Software Engineering",
+          "field": "Software Development and Engineering",
+          "details": [
+            "Architecture, testing, DevOps, cloud computing, security, data engineering, and automation.",
+            "Skills in agile methodologies, leadership, project management, and continuous delivery.",
+            "Design, build, and deploy robust, secure, and efficient software aligned with business needs."
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Diplomas",
+      "items": [
+        {
+          "period": { "from": "2009-07", "to": "2010-03" },
+          "institution": "Escuela de Gestión Pública Plurinacional",
+          "degree": "Diploma in Information Security",
+          "details": [
+            "Incident Management",
+            "Security Plan & Mechanisms",
+            "Computer Forensics"
+          ]
+        },
+        {
+          "period": { "from": "2019-11", "to": "2020-04" },
+          "institution": "Universidad del Valle",
+          "degree": "Diploma in IT Systems Audit",
+          "details": ["ISO-27001", "ISO-27002", "COBIT-2015", "ISO-31000"]
+        },
+        {
+          "period": { "from": "2016-01", "to": "2016-06" },
+          "institution": "Centro Psicopedagógico y de Investigación en Educación Superior",
+          "degree": "Diploma in Research Methodologies",
+          "details": [
+            "Types of Research, Education Research, Qualitative and Quantitative Research"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Training & Courses",
+      "items": [
+        {
+          "period": { "from": "2025-01", "to": "2025-01" },
+          "institution": "UDEMY_BUSSINES",
+          "course": "D365 PSA",
+          "type": "Online"
+        },
+        {
+          "period": { "from": "2024-01", "to": "2024-01" },
+          "institution": "UDEMY_BUSSINES",
+          "course": "Contentful Certified Professional",
+          "type": "Online"
+        },
+        {
+          "period": { "from": "2019-01", "to": "2019-01" },
+          "institution": "UDEMY",
+          "course": "ReactJS",
+          "details": ["React with Hooks", "MERN", "JWT", "OAuth", "CRUD"]
+        }
+      ]
+    }
+  ],
+
+  "references": [
+    {
+      "company": "Argano UV- United Virtualities",
+      "contacts": [
+        {
+          "name": "Guadalupe Garcia Valls",
+          "role": "People Generalist - ARG GSS People",
+          "items": [
+            { "type": "Email", "value": "guadalupe.garciavalls@argano.com" }
+          ]
+        },
+        {
+          "name": "Jose Segado",
+          "role": "Vice President I - Delivery • CNT Delivery Client Experience",
+          "items": [{ "type": "Email", "value": "jj.segado@argano.com" }]
+        },
+        {
+          "name": "Gabriel Gotelli",
+          "role": "Manager - Delivery • CNT Delivery Client Experience",
+          "items": [
+            { "type": "Email", "value": "gabriel.gotelli@argano.com" },
+            { "type": "Phone", "value": "+54 5492214007157" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Banco Central de Bolivia",
+      "contacts": [
+        {
+          "name": "Lic. Rodrigo Razzit",
+          "role": "Subgerente de Sistemas de Información",
+          "items": [
+            { "type": "Phone", "value": "+591 2409090" },
+            { "type": "Phone", "value": "+591 70263516" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "BANCO UNION S.A.",
+      "contacts": [
+        {
+          "name": "Ing. Reynaldo Arcani",
+          "role": "Jefe de Desarrollo y Tecnologías Core",
+          "items": [
+            { "type": "Phone", "value": "+591 2171717" },
+            { "type": "Phone", "value": "+591 73009607" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ESPM - Empresa de Servicio de Pago Móvil",
+      "contacts": [
+        {
+          "name": "Ing. Gonzalo Castillo",
+          "role": "Jefe de Tecnologías de Información y Comunicación",
+          "items": [{ "type": "Phone", "value": "+591 72550363" }]
+        }
+      ]
+    },
+    {
+      "company": "Servicio de Impuestos Nacionales - Bolivia",
+      "contacts": [
+        {
+          "name": "Ing. Vladimir Terán",
+          "role": "Gerente de Tecnologías de Información y Comunicación",
+          "items": [
+            { "type": "Phone", "value": "+591 2203572" },
+            { "type": "Phone", "value": "+591 2606060" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "AXS Bolivia",
+      "contacts": [
+        {
+          "name": "Lic. Marcelo Terán",
+          "role": "Jefe de Sistemas - AXS Bolivia",
+          "items": [
+            { "type": "Phone", "value": "+591 2792244" },
+            { "type": "Phone", "value": "+591 2971111" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Ministerio de Salud",
+      "contacts": [
+        {
+          "name": "Lic. Edwin Choqueticlla",
+          "role": "Jefe de Recaudaciones",
+          "items": [
+            { "type": "Phone", "value": "+591 73037763" },
+            { "type": "Phone", "value": "+591 22482233" },
+            { "type": "Phone", "value": "+591 22495086" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "BID - Banco Interamericano de Desarrollo",
+      "contacts": [
+        {
+          "name": "Ing. Marlene Zoraida Arguello",
+          "role": "Especialista Financiero - BID Bolivia",
+          "items": [
+            { "type": "Phone", "value": "+591 2217700" },
+            { "type": "Phone", "value": "+591 2217723" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Ministerio de Economía y Finanzas - Bolivia",
+      "contacts": [
+        {
+          "name": "Ing. Roció Quinteros Villanueva",
+          "role": "Jefe de Unidad de Desarrollo y Producción",
+          "items": [
+            { "type": "Phone", "value": "+591 2201833" },
+            { "type": "Phone", "value": "+591 2201391" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "ENTEL SA - Empresa Nacional de Telecomunicaciones",
+      "contacts": [
+        {
+          "name": "Ing. Horacio Villareal",
+          "role": "Jefe de Desarrollo de Aplicación CORE",
+          "items": [
+            { "type": "Phone", "value": "+591 72550050" },
+            { "type": "Phone", "value": "+591 2122357" }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "INTERSOFT BOLIVIA - SA",
+      "contacts": [
+        {
+          "name": "Ing. Ivan Montaño",
+          "role": "Jefe de Proyectos InterSoft",
+          "items": [{ "type": "Phone", "value": "+591 2442430" }]
+        }
+      ]
+    },
+    {
+      "company": "FAB - Comando General de la Fuerza Aérea Bolivia",
+      "contacts": [
+        {
+          "name": "Tte. Cnel. DIM. Rodrigo Mendizábal German",
+          "role": "Director General de Informática",
+          "items": [
+            { "type": "Phone", "value": "+591 72001841" },
+            { "type": "Phone", "value": "+591 2642000" },
+            { "type": "Phone", "value": "+591 2642001" }
+          ]
+        }
+      ]
+    }
+  ]
+}
