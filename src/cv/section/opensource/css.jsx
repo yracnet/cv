@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const OpensourceCol = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+`;
 export const OpensourceItem = styled.section`
   margin-bottom: 4mm;
 

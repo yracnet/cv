@@ -1,5 +1,8 @@
 import styled from "styled-components";
-
+export const ReferencesCol = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+`;
 export const ReferencesItem = styled.div`
   margin-bottom: 0mm;
   margin-left: 5mm;
@@ -12,7 +15,7 @@ export const ReferencesItem = styled.div`
   }
 
   .contact-item {
-    margin-bottom: 0mm;
+    margin-bottom: 4mm;
     padding-left: 4mm;
 
     .contact-header {

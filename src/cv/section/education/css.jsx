@@ -11,6 +11,11 @@ export const EducationItem = styled.div`
     color: #1f2937;
   }
 
+  > .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .education-item {
     margin-bottom: 3mm;
     margin-left: 5mm;
@@ -22,12 +27,13 @@ export const EducationItem = styled.div`
     }
 
     .institution {
-      font-weight: 500;
+      font-weight: 600;
       font-size: 10pt;
       color: #111827;
     }
 
     .degree {
+      font-weight: 500;
       font-size: 9.5pt;
       color: #374151;
       margin-bottom: 1mm;

@@ -11,15 +11,15 @@
       },
       "items": [
         {
-          "period": { "from": "2003-02", "to": "2009-12" },
+          "period": { "from": "2003-06", "to": "2009-02" },
           "institution": "Universidad Mayor de San Andrés",
           "degree": {
-            "es": "Licenciado en Informatica - Mension en Ingeniería en Sistemas Informaticos",
-            "en": "Computer Systems Engineering"
+            "es": "Licenciatura en Ciencias de la Computación – Mención Ingeniería de Sistemas Informáticos",
+            "en": "Bachelor in Computer Science – Major in Computer Systems Engineering"
           },
           "field": {
             "es": "Informática / Computación",
-            "en": "Computer Science / Computing"
+            "en": "Computer Science"
           },
           "details": [
             {
@@ -27,7 +27,7 @@
               "en": "Member of the Scientific Society – Robotics."
             },
             {
-              "es": "Auxiliar de INF-111, INF-121 y INF-131.",
+              "es": "Auxiliar de INF-111, INF-121 e INF-131.",
               "en": "Teaching assistant for INF-111, INF-121 and INF-131."
             },
             {
@@ -41,29 +41,18 @@
           ]
         },
         {
-          "period": { "from": "2023-07", "to": "2025-04" },
+          "period": { "from": "2023-06", "to": "2025-04" },
           "institution": "Universidad Autónoma René Gabriel Moreno",
           "degree": {
             "es": "Maestría en Dirección Estratégica en Ingeniería de Software",
             "en": "Master’s Degree in Strategic Management in Software Engineering"
           },
-          "field": {
-            "es": "Desarrollo e Ingeniería de Software",
-            "en": "Software Development and Engineering"
-          },
           "details": [
-            {
-              "es": "Arquitectura, testing, DevOps, cloud computing, seguridad, ingeniería de datos y automatización.",
-              "en": "Architecture, testing, DevOps, cloud computing, security, data engineering, and automation."
-            },
-            {
-              "es": "Habilidades en metodologías ágiles, liderazgo, gestión de proyectos y entrega continua.",
-              "en": "Skills in agile methodologies, leadership, project management, and continuous delivery."
-            },
-            {
-              "es": "Diseño, construcción y despliegue de software robusto, seguro y eficiente alineado con las necesidades del negocio.",
-              "en": "Design, build, and deployment of robust, secure, and efficient software aligned with business needs."
-            }
+            "IaC – Infraestructura como Código",
+            "DevOps – CI/CD",
+            "Cloud Computing",
+            "Arquitectura de Software",
+            "Procesos BPMN"
           ]
         }
       ]
@@ -75,10 +64,27 @@
       },
       "items": [
         {
-          "period": { "from": "2009-07", "to": "2010-03" },
+          "period": { "from": "2019-12", "to": "2020-04" },
+          "institution": "Universidad del Valle",
+          "degree": {
+            "es": "Diplomado en Auditoría de Sistemas Informáticos",
+            "en": "Diploma in Information Systems Auditing"
+          },
+          "details": [
+            "COBIT-2019",
+            "ISO 27001",
+            "ISO 31000",
+            "ISO 22301",
+            "Gobierno y Gestión de TI",
+            "Gestión de Riesgos",
+            "Continuidad del Negocio"
+          ]
+        },
+        {
+          "period": { "from": "2018-07", "to": "2018-12" },
           "institution": "Escuela de Gestión Pública Plurinacional",
           "degree": {
-            "es": "Diploma en Seguridad Informática",
+            "es": "Diplomado en Seguridad de la Información",
             "en": "Diploma in Information Security"
           },
           "details": [
@@ -87,8 +93,16 @@
               "en": "Incident Management"
             },
             {
-              "es": "Plan y mecanismos de seguridad",
-              "en": "Security plans and mechanisms"
+              "es": "Plan de Seguridad",
+              "en": "Security Planning"
+            },
+            {
+              "es": "Mecanismos de Seguridad",
+              "en": "Security Mechanisms"
+            },
+            {
+              "es": "Desarrollo Seguro",
+              "en": "Secure Development"
             },
             {
               "es": "Informática Forense",
@@ -97,31 +111,42 @@
           ]
         },
         {
-          "period": { "from": "2019-11", "to": "2020-04" },
-          "institution": "Universidad del Valle",
-          "degree": {
-            "es": "Diploma en Auditoría de Sistemas de Información",
-            "en": "Diploma in Information Systems Auditing"
-          },
-          "details": ["ISO-27001", "ISO-27002", "COBIT-2015", "ISO-31000"]
-        },
-        {
-          "period": { "from": "2011-03", "to": "2011-08" },
-          "institution": "Universidad Real",
-          "degree": "Ethical Haking",
-          "details": ["SQL Injection", "Port Scanning", "Xploit Execution"]
-        },
-        {
           "period": { "from": "2016-01", "to": "2016-06" },
-          "institution": "Centro Psicopedagógico y de Investigación en Educación Superior",
+          "institution": "Centro Psicopedagógico y de Investigación en Educación Superior (CEPIES – UMSA)",
           "degree": {
-            "es": "Diploma en Metodologías de Investigación",
+            "es": "Diplomado en Metodologías de la Investigación",
             "en": "Diploma in Research Methodologies"
           },
           "details": [
             {
-              "es": "Tipos de investigación, investigación educativa, investigación cualitativa y cuantitativa.",
-              "en": "Types of research, educational research, qualitative and quantitative research."
+              "es": "Investigación cualitativa y cuantitativa",
+              "en": "Qualitative and quantitative research"
+            },
+            {
+              "es": "Investigación educativa",
+              "en": "Educational research"
+            }
+          ]
+        },
+        {
+          "period": { "from": "2015-06", "to": "2015-12" },
+          "institution": "Centro Psicopedagógico y de Investigación en Educación Superior (CEPIES – UMSA)",
+          "degree": {
+            "es": "Diplomado en Educación Superior",
+            "en": "Diploma in Higher Education"
+          },
+          "details": [
+            {
+              "es": "Liderazgo y planificación",
+              "en": "Leadership and planning"
+            },
+            {
+              "es": "Evaluación y motivación",
+              "en": "Evaluation and motivation"
+            },
+            {
+              "es": "Manejo de grupos",
+              "en": "Group management"
             }
           ]
         }
@@ -135,21 +160,15 @@
       "items": [
         {
           "period": { "from": "2025-01", "to": "2025-01" },
-          "institution": "UDEMY BUSSINES",
+          "institution": "ARGANO BUSSINES",
           "course": "D365 PSA",
-          "type": {
-            "es": "En línea",
-            "en": "Online"
-          }
+          "type": { "es": "En línea", "en": "Online" }
         },
         {
           "period": { "from": "2024-01", "to": "2024-01" },
-          "institution": "UDEMY BUSSINES",
+          "institution": "ARGANO BUSSINES",
           "course": "Contentful Certified Professional",
-          "type": {
-            "es": "En línea",
-            "en": "Online"
-          }
+          "type": { "es": "En línea", "en": "Online" }
         },
         {
           "period": { "from": "2019-01", "to": "2019-01" },
@@ -158,10 +177,70 @@
           "details": ["React con Hooks", "MERN", "JWT", "OAuth", "CRUD"]
         },
         {
-          "period": { "from": "2019-01", "to": "2019-01" },
-          "institution": "ENTEL",
-          "course": "Weblogic",
-          "details": ["JEE", "ADF-Faces", "JPA", "DataSource", "Deploy"]
+          "period": { "from": "2019-09", "to": "2019-12" },
+          "institution": "Escuela de Gestión Pública Plurinacional",
+          "course": {
+            "es": "Curso de Inglés",
+            "en": "English Course"
+          },
+          "details": [
+            {
+              "es": "Nivel básico",
+              "en": "Basic level"
+            }
+          ]
+        },
+        {
+          "period": { "from": "2018-06", "to": "2018-07" },
+          "institution": "Escuela Militar de Ingeniería – Postgrado",
+          "course": {
+            "es": "Introducción a Machine Learning",
+            "en": "Introduction to Machine Learning"
+          },
+          "details": ["Python", "Jupyter", "TensorFlow"]
+        },
+        {
+          "period": { "from": "2017-06", "to": "2017-07" },
+          "institution": "COGNOS",
+          "course": "Patrones JEE"
+        },
+        {
+          "period": { "from": "2016-06", "to": "2016-07" },
+          "institution": "Scrum Alliance",
+          "course": "SCRUM Certification"
+        },
+        {
+          "period": { "from": "2013-05", "to": "2013-06" },
+          "institution": "Universidad Mayor de San Andrés",
+          "course": "Visual.NET – ASP.NET"
+        },
+        {
+          "period": { "from": "2012-04", "to": "2012-05" },
+          "institution": "Universidad Real – CTT",
+          "course": "Ethical Hacking v7"
+        },
+        {
+          "period": { "from": "2011-01", "to": "2011-02" },
+          "institution": "Oracle Argentina S.A.",
+          "course": "Oracle WebLogic Server"
+        },
+        {
+          "period": { "from": "2010-06", "to": "2010-07" },
+          "institution": "Oracle Argentina S.A.",
+          "course": "ADF-Faces & JDeveloper"
+        },
+        {
+          "period": { "from": "2010-01", "to": "2010-02" },
+          "institution": "Oracle Argentina S.A.",
+          "course": "ADF-Faces, TaskFlow & EJB"
+        },
+        {
+          "period": { "from": "2011-08", "to": "2013-02" },
+          "institution": "Universidad Aquino Bolivia – Idiomas",
+          "course": {
+            "es": "Inglés Técnico – Nivel Superior",
+            "en": "Technical English – Advanced Level"
+          }
         }
       ]
     }
