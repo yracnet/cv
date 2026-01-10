@@ -1,5 +1,6 @@
 import { useCV } from "../../context";
-import { Text } from "../../ui/text";
+import { HeaderDescription, HeaderTitle, TextRaw } from "../../ui/head";
+import { PrintText } from "../../ui/text";
 import { ProfileStyle } from "./css";
 import profile from "./data.json";
 
@@ -7,23 +8,23 @@ const Profile = () => {
   const { name, picture, headline, summary, contact } = profile;
   return (
     <ProfileStyle>
-      <div className="header">
-        {picture && <img src={picture} alt={name} />}
-        <div>
-          <h1>
-            <Text value={name} />
-          </h1>
-          {headline.map((item, index) => (
-            <h2 key={index}>
-              <Text value={item} />
-            </h2>
-          ))}
-        </div>
+      <div className="photo">
+        <img src={picture} alt={name} />
+      </div>
+      <div className="title">
+        <h1>
+          <PrintText value={name} />
+        </h1>
+        {headline.map((item, index) => (
+          <h2 key={index}>
+            <PrintText value={item} />
+          </h2>
+        ))}
       </div>
       <ul className="summary">
         {summary.map((item, index) => (
           <li key={index}>
-            <Text value={item} />
+            <PrintText value={item} />
           </li>
         ))}
       </ul>
@@ -35,10 +36,10 @@ const Profile = () => {
             target={item.type === "email" ? undefined : "_blank"}
           >
             <span className="label">
-              <Text value={item.label} />
+              <PrintText value={item.label} />
             </span>
             <span className="value">
-              <Text value={item.value} />
+              <PrintText value={item.value} />
             </span>
           </a>
         ))}

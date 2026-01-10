@@ -1,50 +1,51 @@
 import styled from "styled-components";
+import { BaseSection } from "../css";
 
-export const ProfileStyle = styled.section`
-  .header {
-    display: flex;
-    align-items: center;
-    gap: 16mm;
-
+export const ProfileStyle = styled(BaseSection)`
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: min-content;
+  grid-template-areas:
+    "photo title"
+    "summary summary"
+    "contacts contacts";
+  > .photo {
     > img {
       width: 32mm;
       height: 32mm;
       object-fit: cover;
       border-radius: 50%;
     }
-    > div {
-      h1 {
-        font-size: 20pt;
-        margin: 0;
-        font-weight: 700;
-        color: #111827;
-      }
-
-      h2 {
-        font-size: 11.5pt;
-        margin: 0px;
-        font-weight: 500;
-        color: #374151;
-      }
+  }
+  > .title {
+    > h1 {
+      font-size: 20pt;
+      margin: 0;
+      font-weight: 700;
+      color: #111827;
+    }
+    > h2 {
+      font-size: 11.5pt;
+      margin: 0px;
+      font-weight: 500;
+      color: #374151;
     }
   }
-
-  .summary {
-    margin: 10mm 0 6mm;
+  > .summary {
     padding-left: 5mm;
-
     > li {
-      margin-bottom: 2mm;
       line-height: 1.5;
+      font-size: 11pt;
+      margin: 0px;
+      font-weight: 500;
+      color: #374151;
     }
   }
 
-  .contacts {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2mm 6mm;
+  > .contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1mm 0mm;
     font-size: 9.5pt;
-
     > a {
       display: inline-flex;
       align-items: center;

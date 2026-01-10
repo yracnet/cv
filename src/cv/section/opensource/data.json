@@ -15,7 +15,7 @@
     },
     {
       "date": "2025-04",
-      "name": "vite-plugin-ssr-config",
+      "name": "vite-plugin-ssr-config / vite-plugin-remix",
       "url": "https://github.com/yracnet/vite-plugin-ssr-config",
       "description": {
         "es": "Plugin de Vite para habilitar renderizado del lado del servidor (SSR) en aplicaciones React.",
@@ -33,7 +33,7 @@
     },
     {
       "date": "2023-06",
-      "name": "vite-plugin-api",
+      "name": "vite-plugin-api / vite-plugin-api-routes",
       "url": "https://github.com/yracnet/vite-plugin-api-routes",
       "description": {
         "es": "Plugin de Vite para routing de backend en Express.",

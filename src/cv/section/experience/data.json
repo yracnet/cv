@@ -71,11 +71,11 @@
         "C#",
         "Jenkins",
         "Git",
-        "Gitea",
-        {
-          "es": "Extensiones Chrome",
-          "en": "Chrome Extensions"
-        }
+        "Chrome Extensions",
+        "Google Gemini",
+        "IA Client",
+        "Salesforce",
+        "Einstein Salesforce"
       ]
     },
 

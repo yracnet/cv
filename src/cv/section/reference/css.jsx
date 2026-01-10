@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ReferencesItem = styled.div`
-  margin-bottom: 5mm;
+  margin-bottom: 0mm;
   margin-left: 5mm;
 
   .company-name {
@@ -12,7 +12,7 @@ export const ReferencesItem = styled.div`
   }
 
   .contact-item {
-    margin-bottom: 3mm;
+    margin-bottom: 0mm;
     padding-left: 4mm;
 
     .contact-header {

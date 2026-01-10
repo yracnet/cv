@@ -1,14 +1,14 @@
-import { Text } from "../../ui/text";
-import { Title } from "../../ui/title";
+import { PrintText } from "../../ui/text";
+import { TitleLine } from "../../ui/title";
 import { OpensourceItem } from "./css";
 import data from "./data.json";
 
 const Opensource = () => {
   return (
     <>
-      <Title>
-        <Text value={data.title} />
-      </Title>
+      <TitleLine>
+        <PrintText value={data.title} />
+      </TitleLine>
       {data.items.map((proj, idx) => (
         <OpensourceItem key={idx}>
           <div className="header">
@@ -18,11 +18,11 @@ const Opensource = () => {
               rel="noopener noreferrer"
               className="name"
             >
-              <Text value={proj.name} />
+              <PrintText value={proj.name} />
             </a>
           </div>
           <div className="description">
-            <Text value={proj.description} />
+            <PrintText value={proj.description} />
           </div>
         </OpensourceItem>
       ))}

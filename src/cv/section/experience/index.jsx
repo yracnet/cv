@@ -1,63 +1,54 @@
-import { Title } from "../../ui/title";
+import { TitleLine } from "../../ui/title";
 import { ExperienceItem } from "./css";
 import data from "./data.json";
-import { Text, TextList } from "../../ui/text";
+import { PrintText, PrintTextList } from "../../ui/text";
 const Experience = () => {
   return (
     <>
-      <Title>
-        <Text value={data.title} />
-      </Title>
+      <TitleLine>
+        <PrintText value={data.title} />
+      </TitleLine>
       {data.items.map((exp) => (
         <ExperienceItem key={exp.id}>
-          <div className="header">
-            <div className="role">
-              <Text value={exp.role} />
-            </div>
-            <div className="modality">
-              <Text value={exp.modality} />
-            </div>
+          <div className="title">
+            <PrintText value={exp.role} />
           </div>
-
-          <div className="company-location">
+          <div className="location">
             <span className="company">
-              <Text value={exp.company} />
+              <PrintText value={exp.company} />
             </span>
             -
             <span className="location">
-              <Text value={exp.location} />
+              <PrintText value={exp.location} />
             </span>
           </div>
-
+          <div className="modality">
+            <PrintText value={exp.modality} />
+          </div>
           <div className="period">
             {exp.period.from} - {exp.period.to}
           </div>
-
-          {exp.description && (
-            <ul className="description">
-              {exp.description.map((d, idx) => (
+          <div className="description">
+            <ul>
+              {exp.description?.map((d, idx) => (
                 <li key={idx}>
-                  <Text value={d} />
+                  <PrintText value={d} />
                 </li>
               ))}
             </ul>
-          )}
-
-          {exp.projects && (
-            <ul className="projects">
-              {exp.projects.map((p, idx) => (
+          </div>
+          <div className="projects">
+            <ul>
+              {exp.projects?.map((p, idx) => (
                 <li key={idx}>
-                  <Text value={p} />
+                  <PrintText value={p} />
                 </li>
               ))}
             </ul>
-          )}
-
-          {exp.technologies && (
-            <div className="technologies">
-              <TextList value={exp.technologies} />
-            </div>
-          )}
+          </div>
+          <div className="technologies">
+            <PrintTextList value={exp.technologies} />
+          </div>
         </ExperienceItem>
       ))}
     </>

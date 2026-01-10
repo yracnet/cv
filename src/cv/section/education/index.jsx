@@ -1,18 +1,18 @@
-import { Text } from "../../ui/text";
-import { Title } from "../../ui/title";
+import { PrintText } from "../../ui/text";
+import { TitleLine } from "../../ui/title";
 import { EducationItem } from "./css";
 import data from "./data.json";
 
 const Education = () => {
   return (
     <>
-      <Title>
-        <Text value={data.title} />
-      </Title>
+      <TitleLine>
+        <PrintText value={data.title} />
+      </TitleLine>
       {data.items.map((group, idx) => (
         <EducationItem key={idx} className="education-group">
           <h3>
-            <Text value={group.group} />
+            <PrintText value={group.group} />
           </h3>
           {group.items.map((item, i) => (
             <div key={i} className="education-item">
@@ -20,21 +20,21 @@ const Education = () => {
                 {item.period.from} - {item.period.to}
               </div>
               <div className="institution">
-                <Text value={item.institution} />
+                <PrintText value={item.institution} />
               </div>
               <div className="degree">
-                <Text value={item.degree || item.course} />
+                <PrintText value={item.degree || item.course} />
               </div>
               {item.field && (
                 <div className="field">
-                  <Text value={item.field} />
+                  <PrintText value={item.field} />
                 </div>
               )}
               {item.details && (
                 <ul className="details-list">
                   {item.details.map((d, j) => (
                     <li key={j}>
-                      <Text value={d} />
+                      <PrintText value={d} />
                     </li>
                   ))}
                 </ul>

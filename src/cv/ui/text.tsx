@@ -7,7 +7,7 @@ type ValueText =
       [key: string]: string;
     };
 
-export const Text: React.FC<{
+export const PrintText: React.FC<{
   value: ValueText;
 }> = ({ value }) => {
   const { lang } = useCV();
@@ -20,7 +20,7 @@ export const Text: React.FC<{
   return text;
 };
 
-export const TextList: React.FC<{
+export const PrintTextList: React.FC<{
   value: ValueText[];
 }> = ({ value }) => {
   if (!value) return null;
@@ -29,7 +29,7 @@ export const TextList: React.FC<{
     <span>
       {value.map((it, i) => (
         <span key={i}>
-          <Text value={it} />
+          <PrintText value={it} />
           {i < value.length - 1 && ", "}
         </span>
       ))}

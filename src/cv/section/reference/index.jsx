@@ -1,14 +1,14 @@
-import { Text } from "../../ui/text";
-import { Title } from "../../ui/title";
+import { PrintText } from "../../ui/text";
+import { TitleLine } from "../../ui/title";
 import { ReferencesItem } from "./css";
 import data from "./data.json";
 
 const References = () => {
   return (
     <>
-      <Title>
-        <Text value={data.title} />
-      </Title>
+      <TitleLine>
+        <PrintText value={data.title} />
+      </TitleLine>
       {data.items.map((it, idx) => (
         <ReferencesItem key={idx} className="company-group">
           <h3 className="company-name">{it.company}</h3>
@@ -16,21 +16,21 @@ const References = () => {
             <div key={cidx} className="contact-item">
               <div className="contact-header">
                 <span className="contact-name">
-                  <Text value={contact.name} />
+                  <PrintText value={contact.name} />
                 </span>
                 -
                 <span className="contact-role">
-                  <Text value={contact.role} />
+                  <PrintText value={contact.role} />
                 </span>
               </div>
               <div className="contact-items">
                 {contact.items.map((item, iidx) => (
                   <div key={iidx} className={`contact-item-${item.type}`}>
                     <strong>
-                      <Text value={item.type} />:
+                      <PrintText value={item.type} />:
                     </strong>{" "}
                     <span>
-                      <Text value={item.value} />
+                      <PrintText value={item.value} />
                     </span>
                   </div>
                 ))}

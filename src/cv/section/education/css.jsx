@@ -41,6 +41,7 @@ export const EducationItem = styled.div`
     }
 
     .details-list {
+      display: none;
       padding-left: 4mm;
 
       > li {
