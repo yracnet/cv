@@ -1,6 +1,4 @@
-import { useCV } from "../../context";
-import { HeaderDescription, HeaderTitle, TextRaw } from "../../ui/head";
-import { PrintText } from "../../ui/text";
+import { PrintText } from "../ui/text";
 import { ProfileStyle } from "./css";
 import profile from "./data.json";
 
@@ -12,13 +10,13 @@ const Profile = () => {
         <img src={picture} alt={name} />
       </div>
       <div className="title">
-        <h1>
-          <PrintText value={name} />
-        </h1>
+        <PrintText value={name} />
+      </div>
+      <div className="headline">
         {headline.map((item, index) => (
-          <h2 key={index}>
+          <div key={index}>
             <PrintText value={item} />
-          </h2>
+          </div>
         ))}
       </div>
       <ul className="summary">

@@ -1,61 +1,35 @@
 import styled from "styled-components";
+import { BaseSection } from "../css";
 
-export const SkillStyle = styled.section`
-  > h2 {
-    font-size: 13pt;
+export const SkillItem = styled(BaseSection)`
+  margin-left: 5mm;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  grid-template-areas:
+    "title"
+    "content";
+  .title {
+    font-size: 10.5pt;
     font-weight: 600;
-    margin-bottom: 4mm;
-    color: #111827;
-    border-bottom: 1px solid #e5e7eb;
-    padding-bottom: 1.5mm;
+    color: #1f2937;
   }
-
-  > div {
-    margin-bottom: 4mm;
-
-    > h3 {
-      font-size: 10.5pt;
-      font-weight: 600;
-      margin-bottom: 2mm;
-      color: #1f2937;
-    }
-
+  .content {
     > ul {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 1.5mm 6mm;
-      padding-left: 4mm;
-      > li {
-        font-size: 9.5pt;
-        line-height: 1.45;
-        > span {
-          font-size: 8.5pt;
-        }
-      }
-    }
-  }
-`;
-
-export const SkillItem = styled.div`
-  margin-bottom: 4mm;
-
-  > h3 {
-    font-size: 10.5pt;
-    font-weight: 600;
-    margin-bottom: 2mm;
-    color: #1f2937;
-  }
-
-  > ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5mm 6mm;
-    padding-left: 4mm;
-    > li {
+      gap: 1mm 5mm;
       font-size: 9.5pt;
       line-height: 1.45;
-      > span {
-        font-size: 9pt;
+      margin: 0;
+      padding: 0;
+      padding-left: 4mm;
+      > * {
+        > span {
+          font-size: 9pt;
+          color: #4b5563;
+          font-style: italic;
+          margin-bottom: 0.5mm;
+        }
       }
     }
   }

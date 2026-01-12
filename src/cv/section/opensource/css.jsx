@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const OpensourceCol = styled.div`
+  margin-left: 5mm;
   display: grid;
   grid-template-columns: 1fr 1fr;
 `;
-export const OpensourceItem = styled.section`
-  margin-bottom: 4mm;
 
+export const OpensourceItem = styled.section`
   .header {
     .name {
       font-size: 10.5pt;

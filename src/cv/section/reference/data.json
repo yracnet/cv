@@ -8,19 +8,6 @@
       "company": "Argano UV - United Virtualities",
       "contacts": [
         {
-          "name": "Guadalupe Garcia Valls",
-          "role": {
-            "es": "People Generalist - ARG GSS People",
-            "en": "People Generalist - ARG GSS People"
-          },
-          "items": [
-            {
-              "type": { "es": "Correo", "en": "Email" },
-              "value": "guadalupe.garciavalls@argano.com"
-            }
-          ]
-        },
-        {
           "name": "Jose Segado",
           "role": {
             "es": "Vicepresidente I - Delivery | CNT Delivery Client Experience",
@@ -30,6 +17,23 @@
             {
               "type": { "es": "Correo", "en": "Email" },
               "value": "jj.segado@argano.com"
+            }
+          ]
+        },
+        {
+          "name": "José Cardozo Burgos",
+          "role": {
+            "es": "Principal Solutions Architect | ArganoConnect",
+            "en": "Principal Solutions Architect | ArganoConnect"
+          },
+          "items": [
+            {
+              "type": { "es": "Correo", "en": "Email" },
+              "value": "jose.cardozo@argano.com"
+            },
+            {
+              "type": { "es": "Teléfono", "en": "Phone" },
+              "value": "+1 646.760.3731"
             }
           ]
         },
@@ -67,7 +71,7 @@
               "value": "+591 2409090"
             },
             {
-              "type": { "es": "Telefono", "en": "Phone" },
+              "type": { "es": "Celular", "en": "Cell Phone" },
               "value": "+591 70263516"
             }
           ]
@@ -89,7 +93,7 @@
               "value": "+591 2171717"
             },
             {
-              "type": { "es": "Telefono", "en": "Phone" },
+              "type": { "es": "Celular", "en": "Cell Phone" },
               "value": "+591 73009607"
             }
           ]
@@ -97,7 +101,7 @@
       ]
     },
     {
-      "company": "ESPM (Empresa de Servicio de Pago Móvil)",
+      "company": "Empresa de Servicio de Pago Móvil",
       "contacts": [
         {
           "name": "Ing. Gonzalo Castillo",
@@ -107,7 +111,7 @@
           },
           "items": [
             {
-              "type": { "es": "Telefono", "en": "Phone" },
+              "type": { "es": "Celular", "en": "Cell Phone" },
               "value": "+591 72550363"
             }
           ]
@@ -115,7 +119,7 @@
       ]
     },
     {
-      "company": "SIN (Servicio de Impuestos Nacionales - Bolivia)",
+      "company": "Servicio de Impuestos Nacionales - Bolivia",
       "contacts": [
         {
           "name": "Ing. Vladimir Terán",
@@ -137,7 +141,7 @@
       ]
     },
     {
-      "company": "AXS (AXS Bolivia)",
+      "company": "AXS Bolivia",
       "contacts": [
         {
           "name": "Lic. Marcelo Terán",
@@ -169,7 +173,7 @@
           },
           "items": [
             {
-              "type": { "es": "Telefono", "en": "Phone" },
+              "type": { "es": "Celular", "en": "Cell Phone" },
               "value": "+591 73037763"
             },
             {
@@ -185,7 +189,7 @@
       ]
     },
     {
-      "company": "BID (Banco Interamericano de Desarrollo - Bolivia)",
+      "company": "Banco Interamericano de Desarrollo - Bolivia",
       "contacts": [
         {
           "name": "Ing. Marlene Zoraida Arguello",
@@ -207,7 +211,7 @@
       ]
     },
     {
-      "company": "Ministerio de Economía y Finanzas (Dirección de Sistemas - Bolivia)",
+      "company": "Ministerio de Economía y Finanzas",
       "contacts": [
         {
           "name": "Ing. Roció Quinteros Villanueva",
@@ -229,7 +233,7 @@
       ]
     },
     {
-      "company": "ENTEL SA (Empresa Nacional de Telecomunicaciones - Bolivia)",
+      "company": "ENTEL SA - Bolivia",
       "contacts": [
         {
           "name": "Ing. Horacio Villareal",
@@ -239,7 +243,7 @@
           },
           "items": [
             {
-              "type": { "es": "Telefono", "en": "Phone" },
+              "type": { "es": "Celular", "en": "Cell Phone" },
               "value": "+591 72550050"
             },
             {
@@ -251,6 +255,7 @@
       ]
     },
     {
+      "hide": true,
       "company": "INTERSOFT BOLIVIA - SA",
       "contacts": [
         {
@@ -269,6 +274,7 @@
       ]
     },
     {
+      "hide": true,
       "company": "FAB (Comando General de la Fuerza Aérea Boliviana)",
       "contacts": [
         {
@@ -279,7 +285,7 @@
           },
           "items": [
             {
-              "type": { "es": "Telefono", "en": "Phone" },
+              "type": { "es": "Celular", "en": "Cell Phone" },
               "value": "+591 72001841"
             },
             {

@@ -6,32 +6,32 @@ import React, {
   type ReactNode,
 } from "react";
 
-type CVValue = {
+type SettingValue = {
   lang: string;
   setLang: Dispatch<string>;
 };
 
 //@ts-ignore
-export const CVContext = createContext<CVValue>(null);
+export const SettingContext = createContext<SettingValue>(null);
 
-export const CVProvider: React.FC<{
+export const SettingProvider: React.FC<{
   children: ReactNode;
   defaultLang?: string;
 }> = ({ children, defaultLang = "en" }) => {
   const [lang, setLang] = useState(defaultLang);
   return (
-    <CVContext
+    <SettingContext
       value={{
         lang,
         setLang,
       }}
     >
       {children}
-    </CVContext>
+    </SettingContext>
   );
 };
 
-export const useCV = () => {
-  const { lang, setLang } = useContext(CVContext);
+export const useSetting = () => {
+  const { lang, setLang } = useContext(SettingContext);
   return { lang, setLang };
 };

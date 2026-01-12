@@ -1,8 +1,8 @@
-import { useCV } from "../../context";
+import { useSetting } from "../ui/context";
 import { ToolStyle, LangButton, PrintButton } from "./css";
 
 const Tool = () => {
-  const { lang, setLang } = useCV();
+  const { lang, setLang } = useSetting();
   const values = ["es", "en"];
 
   const handlePrint = () => {

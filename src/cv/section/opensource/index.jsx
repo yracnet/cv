@@ -1,5 +1,5 @@
-import { PrintText } from "../../ui/text";
-import { TitleLine } from "../../ui/title";
+import { PrintText } from "../ui/text";
+import { TitleLine } from "../ui/title";
 import { OpensourceCol, OpensourceItem } from "./css";
 import data from "./data.json";
 

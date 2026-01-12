@@ -6,6 +6,7 @@ export const ProfileStyle = styled(BaseSection)`
   grid-template-rows: min-content;
   grid-template-areas:
     "photo title"
+    "photo headline"
     "summary summary"
     "contacts contacts";
   > .photo {
@@ -17,24 +18,23 @@ export const ProfileStyle = styled(BaseSection)`
     }
   }
   > .title {
-    > h1 {
-      font-size: 20pt;
-      margin: 0;
-      font-weight: 700;
-      color: #111827;
-    }
-    > h2 {
-      font-size: 11.5pt;
-      margin: 0px;
-      font-weight: 500;
-      color: #374151;
-    }
+    font-size: 20pt;
+    margin: 0;
+    font-weight: 700;
+    color: #111827;
+  }
+  > .headline {
+    font-size: 11.5pt;
+    margin: 0px;
+    font-weight: 500;
+    color: #374151;
   }
   > .summary {
     padding-left: 5mm;
+    line-height: 1.5;
+    font-size: 10pt;
     > li {
-      line-height: 1.5;
-      font-size: 11pt;
+      list-style: circle;
       margin: 0px;
       font-weight: 500;
       color: #374151;
@@ -49,10 +49,9 @@ export const ProfileStyle = styled(BaseSection)`
     > a {
       display: inline-flex;
       align-items: center;
-      gap: 2mm;
+      gap: 0 2mm;
       color: #2563eb;
       text-decoration: none;
-      padding: 0.5mm 1mm;
       > .label {
         font-weight: 500;
         color: black;

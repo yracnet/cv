@@ -22,6 +22,10 @@
       },
       "description": [
         {
+          "es": "Desarrollo y mantenimiento de sistemas asistido/integrado con IA.",
+          "en": "Development and maintenance of AI-assisted/integrated systems."
+        },
+        {
           "es": "Desarrollo y mantenimiento de sistemas CMS y extensiones de Chrome.",
           "en": "Development and maintenance of CMS systems and Chrome extensions."
         },
@@ -65,6 +69,11 @@
         "NextJS",
         "Redux",
         "MongoDB",
+        "PaaS",
+        "CloudSigma",
+        "Azure",
+        "GoogleCloud",
+        "Buckets",
         "NodeJS",
         "Java",
         "Python",
@@ -74,6 +83,7 @@
         "Chrome Extensions",
         "Google Gemini",
         "IA Client",
+        "IA Generator",
         "Salesforce",
         "Einstein Salesforce"
       ]

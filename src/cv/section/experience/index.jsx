@@ -1,7 +1,7 @@
-import { TitleLine } from "../../ui/title";
+import { TitleLine } from "../ui/title";
 import { ExperienceItem } from "./css";
 import data from "./data.json";
-import { PrintText, PrintTextList } from "../../ui/text";
+import { PrintText, PrintTextList } from "../ui/text";
 const Experience = () => {
   return (
     <>
@@ -29,25 +29,29 @@ const Experience = () => {
             {exp.period.from} - {exp.period.to}
           </div>
           <div className="description">
-            <ul>
-              {exp.description?.map((d, idx) => (
-                <li key={idx}>
-                  <PrintText value={d} />
-                </li>
-              ))}
-            </ul>
+            {exp.description && (
+              <ul>
+                {exp.description?.map((d, idx) => (
+                  <li key={idx}>
+                    <PrintText value={d} />
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
           <div className="projects">
-            <ul>
-              {exp.projects?.map((p, idx) => (
-                <li key={idx}>
-                  <PrintText value={p} />
-                </li>
-              ))}
-            </ul>
+            {exp.projects && (
+              <ul>
+                {exp.projects?.map((p, idx) => (
+                  <li key={idx}>
+                    <PrintText value={p} />
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
           <div className="technologies">
-            <PrintTextList value={exp.technologies} />
+            <PrintTextList value={exp.technologies} split=" | " />
           </div>
         </ExperienceItem>
       ))}

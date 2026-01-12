@@ -1,16 +1,16 @@
-import { CVProvider } from "./context";
+import { SettingProvider } from "./section/ui/context";
 import Education from "./section/education";
 import Experience from "./section/experience";
 import Opensource from "./section/opensource";
 import References from "./section/reference";
 import Profile from "./section/profile/index";
 import Skill from "./section/skills/index";
-import { Body, Page } from "./ui/body";
+import { Body, Page } from "./section/css";
 import Tool from "./section/tool";
 
 const App = () => {
   return (
-    <CVProvider>
+    <SettingProvider>
       <Body>
         <Tool />
         <Page>
@@ -22,12 +22,8 @@ const App = () => {
           <References />
         </Page>
       </Body>
-    </CVProvider>
+    </SettingProvider>
   );
 };
-/**
-          
- 
- */
 
 export default App;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { BaseSection } from "../css";
 
 export const ExperienceItem = styled(BaseSection)`
-  margin-bottom: 10mm;
+  margin-left: 5mm;
   grid-template-columns: 2fr max-content;
   grid-template-areas:
     "title modality"
@@ -41,23 +41,23 @@ export const ExperienceItem = styled(BaseSection)`
 
   > .description,
   > .projects {
-    margin-left: 10mm;
+    padding-left: 10mm;
+    padding-top: 2mm;
     > ul {
-      padding-left: 4mm;
-      margin-bottom: 2mm;
+      padding: 0;
+      margin: 0;
       > li {
         font-size: 9.5pt;
         line-height: 1.45;
-        margin-bottom: 1mm;
+        padding-bottom: 0.5mm;
       }
     }
   }
 
   > .technologies {
-    margin-left: 10mm;
+    padding-left: 10mm;
     font-size: 9pt;
     color: #4b5563;
-    margin-top: 1mm;
     font-style: italic;
   }
 `;

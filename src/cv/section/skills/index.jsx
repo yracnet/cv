@@ -1,9 +1,8 @@
-import { useCV } from "../../context";
-import { PrintText, PrintTextList } from "../../ui/text";
-import { SkillItem, SkillStyle } from "./css";
+import { PrintText, PrintTextList } from "../ui/text";
+import { SkillItem } from "./css";
 import data from "./data.json";
-import { TitleLine } from "../../ui/title";
-import { Debug } from "../../ui/debug";
+import { TitleLine } from "../ui/title";
+import { Debug } from "../ui/debug";
 
 const Skill = () => {
   return (
@@ -13,21 +12,23 @@ const Skill = () => {
       </TitleLine>
       {data.items.map((skill, index) => (
         <SkillItem key={index}>
-          <PrintText value={skill.label} />
-          <ul>
-            {skill.items.map((item, idx) => (
-              <li key={idx}>
-                <PrintText value={item.value ?? item} />
-                {item.details && (
-                  <span>
-                    {" "}
-                    (
-                    <PrintTextList value={item.details} />)
-                  </span>
-                )}
-              </li>
-            ))}
-          </ul>
+          <div className="title">
+            <PrintText value={skill.label} />
+          </div>
+          <div className="content">
+            <ul>
+              {skill.items.map((item, idx) => (
+                <li key={idx}>
+                  <PrintText value={item.value ?? item} />{" "}
+                  {item.details && (
+                    <span>
+                      ( <PrintTextList value={item.details} />)
+                    </span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
         </SkillItem>
       ))}
     </>

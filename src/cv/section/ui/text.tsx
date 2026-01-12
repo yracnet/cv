@@ -1,5 +1,5 @@
 import type React from "react";
-import { useCV } from "../context";
+import { useSetting } from "./context";
 
 type ValueText =
   | string
@@ -10,7 +10,7 @@ type ValueText =
 export const PrintText: React.FC<{
   value: ValueText;
 }> = ({ value }) => {
-  const { lang } = useCV();
+  const { lang } = useSetting();
   const text =
     value === undefined
       ? ""
@@ -22,7 +22,8 @@ export const PrintText: React.FC<{
 
 export const PrintTextList: React.FC<{
   value: ValueText[];
-}> = ({ value }) => {
+  split?: string;
+}> = ({ value, split = ", " }) => {
   if (!value) return null;
 
   return (
@@ -30,7 +31,7 @@ export const PrintTextList: React.FC<{
       {value.map((it, i) => (
         <span key={i}>
           <PrintText value={it} />
-          {i < value.length - 1 && ", "}
+          {i < value.length - 1 && split}
         </span>
       ))}
     </span>

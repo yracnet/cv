@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const EducationItem = styled.div`
-  margin-bottom: 5mm;
   margin-left: 5mm;
-
   > h3 {
     font-size: 11pt;
     font-weight: 600;
+    margin-top: 0;
     margin-bottom: 2mm;
     color: #1f2937;
   }
@@ -17,7 +16,7 @@ export const EducationItem = styled.div`
   }
 
   .education-item {
-    margin-bottom: 3mm;
+    margin-bottom: 2mm;
     margin-left: 5mm;
 
     .period {
