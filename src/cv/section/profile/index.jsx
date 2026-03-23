@@ -28,7 +28,7 @@ const Profile = () => {
       </ul>
       <div className="contacts">
         {contact.map((item, index) => (
-          <a
+          <div
             key={index}
             href={item.value}
             target={item.type === "email" ? undefined : "_blank"}
@@ -39,7 +39,7 @@ const Profile = () => {
             <span className="value">
               <PrintText value={item.value} />
             </span>
-          </a>
+          </div>
         ))}
       </div>
     </ProfileStyle>

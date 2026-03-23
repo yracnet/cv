@@ -1,4 +1,4 @@
-import { PrintText } from "../ui/text";
+import { PrintText, PrintTextList } from "../ui/text";
 import { TitleLine } from "../ui/title";
 import { EducationItem } from "./css";
 import data from "./data.json";
@@ -32,13 +32,9 @@ const Education = () => {
                   </div>
                 )}
                 {item.details && (
-                  <ul className="details-list">
-                    {item.details.map((d, j) => (
-                      <li key={j}>
-                        <PrintText value={d} />
-                      </li>
-                    ))}
-                  </ul>
+                  <div className="details-list">
+                    <PrintTextList value={item.details} split=" | " />
+                  </div>
                 )}
               </div>
             ))}

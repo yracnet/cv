@@ -46,14 +46,18 @@ export const EducationItem = styled.div`
     }
 
     .details-list {
-      display: none;
-      padding-left: 4mm;
-
-      > li {
-        font-size: 9pt;
-        line-height: 1.45;
-        margin-bottom: 0.5mm;
-      }
+      font-size: 9pt;
+      color: #929396;
+      // display: flex;
+      // flex-wrap: wrap;
+      // gap: 1mm;
+      // > * {
+      //   font-size: 9pt;
+      //   line-height: 1.1;
+      //   border: 1px solid gray;
+      //   padding: 0 1mm;
+      //   border-radius: 2mm;
+      // }
     }
   }
 `;

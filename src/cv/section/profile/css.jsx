@@ -46,7 +46,7 @@ export const ProfileStyle = styled(BaseSection)`
     grid-template-columns: 1fr 1fr;
     gap: 1mm 0mm;
     font-size: 9.5pt;
-    > a {
+    > * {
       display: inline-flex;
       align-items: center;
       gap: 0 2mm;

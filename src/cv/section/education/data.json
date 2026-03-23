@@ -11,7 +11,10 @@
       },
       "items": [
         {
-          "period": { "from": "2003-06", "to": "2009-02" },
+          "period": {
+            "from": "2003-06",
+            "to": "2009-02"
+          },
           "institution": "Universidad Mayor de San Andrés",
           "degree": {
             "es": "Licenciatura en Ciencias de la Computación – Mención Ingeniería de Sistemas Informáticos",
@@ -29,19 +32,14 @@
             {
               "es": "Auxiliar de INF-111, INF-121 e INF-131.",
               "en": "Teaching assistant for INF-111, INF-121 and INF-131."
-            },
-            {
-              "es": "Miembro del Centro de Estudiantes – Área Académica.",
-              "en": "Member of the Student Council – Academic Area."
-            },
-            {
-              "es": "Participación activa en ferias universitarias.",
-              "en": "Active participation in university fairs."
             }
           ]
         },
         {
-          "period": { "from": "2023-06", "to": "2025-04" },
+          "period": {
+            "from": "2023-06",
+            "to": "2025-04"
+          },
           "institution": "Universidad Autónoma René Gabriel Moreno",
           "degree": {
             "es": "Maestría en Dirección Estratégica en Ingeniería de Software",
@@ -64,7 +62,10 @@
       },
       "items": [
         {
-          "period": { "from": "2019-12", "to": "2020-04" },
+          "period": {
+            "from": "2019-12",
+            "to": "2020-04"
+          },
           "institution": "Universidad del Valle",
           "degree": {
             "es": "Diplomado en Auditoría de Sistemas Informáticos",
@@ -81,7 +82,10 @@
           ]
         },
         {
-          "period": { "from": "2018-07", "to": "2018-12" },
+          "period": {
+            "from": "2018-07",
+            "to": "2018-12"
+          },
           "institution": "Escuela de Gestión Pública Plurinacional",
           "degree": {
             "es": "Diplomado en Seguridad de la Información",
@@ -111,7 +115,10 @@
           ]
         },
         {
-          "period": { "from": "2016-01", "to": "2016-06" },
+          "period": {
+            "from": "2016-01",
+            "to": "2016-06"
+          },
           "institution": "Centro Psicopedagógico y de Investigación en Educación Superior (CEPIES – UMSA)",
           "degree": {
             "es": "Diplomado en Metodologías de la Investigación",
@@ -129,7 +136,10 @@
           ]
         },
         {
-          "period": { "from": "2015-06", "to": "2015-12" },
+          "period": {
+            "from": "2015-06",
+            "to": "2015-12"
+          },
           "institution": "Centro Psicopedagógico y de Investigación en Educación Superior (CEPIES – UMSA)",
           "degree": {
             "es": "Diplomado en Educación Superior",
@@ -159,25 +169,88 @@
       },
       "items": [
         {
-          "period": { "from": "2025-01", "to": "2025-01" },
+          "period": {
+            "from": "2026-02",
+            "to": "2026-02"
+          },
+          "institution": "UDEMY",
+          "course": "Compilation of MCP agents: VSCode and Claude",
+          "type": {
+            "es": "En línea",
+            "en": "Online"
+          },
+          "details": [
+            "MCP",
+            "MCP-Inspector"
+          ]
+        },
+        {
+          "period": {
+            "from": "2025-01",
+            "to": "2025-01"
+          },
           "institution": "ARGANO BUSSINES",
           "course": "IA Build",
-          "type": { "es": "En línea", "en": "Online" }
+          "type": {
+            "es": "En línea",
+            "en": "Online"
+          },
+          "details": [
+            "Contentful",
+            "Eistein"
+          ]
         },
         {
-          "period": { "from": "2024-01", "to": "2024-01" },
+          "period": {
+            "from": "2024-01",
+            "to": "2024-01"
+          },
           "institution": "ARGANO BUSSINES",
           "course": "Contentful Certified Professional",
-          "type": { "es": "En línea", "en": "Online" }
+          "type": {
+            "es": "En línea",
+            "en": "Online"
+          },
+          "details": [
+            "CRM",
+            "UI Composer"
+          ]
         },
         {
-          "period": { "from": "2019-01", "to": "2019-01" },
+          "period": {
+            "from": "2019-05",
+            "to": "2019-05"
+          },
+          "institution": "UDEMY",
+          "course": "Rest API",
+          "details": [
+            "Express",
+            "MERN",
+            "Node.js",
+            "OAuth",
+            "CRUD"
+          ]
+        },
+        {
+          "period": {
+            "from": "2019-01",
+            "to": "2019-01"
+          },
           "institution": "UDEMY",
           "course": "ReactJS",
-          "details": ["React con Hooks", "MERN", "JWT", "OAuth", "CRUD"]
+          "details": [
+            "Hooks",
+            "MERN",
+            "JWT",
+            "OAuth",
+            "CRUD"
+          ]
         },
         {
-          "period": { "from": "2019-09", "to": "2019-12" },
+          "period": {
+            "from": "2019-09",
+            "to": "2019-12"
+          },
           "institution": "Escuela de Gestión Pública Plurinacional",
           "course": {
             "es": "Curso de Inglés",
@@ -185,57 +258,93 @@
           },
           "details": [
             {
-              "es": "Nivel básico",
-              "en": "Basic level"
+              "es": "Curso de repaso de inglés",
+              "en": "English refresher course"
             }
           ]
         },
         {
-          "period": { "from": "2018-06", "to": "2018-07" },
+          "period": {
+            "from": "2018-06",
+            "to": "2018-07"
+          },
           "institution": "Escuela Militar de Ingeniería – Postgrado",
           "course": {
             "es": "Introducción a Machine Learning",
             "en": "Introduction to Machine Learning"
           },
-          "details": ["Python", "Jupyter", "TensorFlow"]
+          "details": [
+            "Python",
+            "Jupyter",
+            "TensorFlow"
+          ]
         },
         {
-          "period": { "from": "2017-06", "to": "2017-07" },
+          "period": {
+            "from": "2017-06",
+            "to": "2017-07"
+          },
           "institution": "COGNOS",
-          "course": "Patrones JEE"
+          "course": "Patrones JEE",
+          "details": [
+            "C4",
+            "UML",
+            "JEE8"
+          ]
         },
         {
-          "period": { "from": "2016-06", "to": "2016-07" },
+          "period": {
+            "from": "2016-06",
+            "to": "2016-07"
+          },
           "institution": "Scrum Alliance",
           "course": "SCRUM Certification"
         },
         {
-          "period": { "from": "2013-05", "to": "2013-06" },
+          "period": {
+            "from": "2013-05",
+            "to": "2013-06"
+          },
           "institution": "Universidad Mayor de San Andrés",
           "course": "Visual.NET – ASP.NET"
         },
         {
-          "period": { "from": "2012-04", "to": "2012-05" },
+          "period": {
+            "from": "2012-04",
+            "to": "2012-05"
+          },
           "institution": "Universidad Real – CTT",
           "course": "Ethical Hacking v7"
         },
         {
-          "period": { "from": "2011-01", "to": "2011-02" },
+          "period": {
+            "from": "2011-01",
+            "to": "2011-02"
+          },
           "institution": "Oracle Argentina S.A.",
           "course": "Oracle WebLogic Server"
         },
         {
-          "period": { "from": "2010-06", "to": "2010-07" },
+          "period": {
+            "from": "2010-06",
+            "to": "2010-07"
+          },
           "institution": "Oracle Argentina S.A.",
           "course": "ADF-Faces & JDeveloper"
         },
         {
-          "period": { "from": "2010-01", "to": "2010-02" },
+          "period": {
+            "from": "2010-01",
+            "to": "2010-02"
+          },
           "institution": "Oracle Argentina S.A.",
           "course": "ADF-Faces, TaskFlow & EJB"
         },
         {
-          "period": { "from": "2011-08", "to": "2013-02" },
+          "period": {
+            "from": "2011-08",
+            "to": "2013-02"
+          },
           "institution": "Universidad Aquino Bolivia – Idiomas",
           "course": {
             "es": "Inglés Técnico – Nivel Superior",
