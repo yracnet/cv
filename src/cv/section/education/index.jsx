@@ -1,7 +1,7 @@
 import { PrintText, PrintTextList } from "../ui/text";
 import { TitleLine } from "../ui/title";
 import { EducationItem } from "./css";
-import data from "./data.json";
+import { data } from "./data.js";
 
 const Education = () => {
   return (

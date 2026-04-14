@@ -1,4 +1,4 @@
-{
+export const data = {
   "title": {
     "es": "Educación",
     "en": "Education"
@@ -356,4 +356,4 @@
       ]
     }
   ]
-}
+};

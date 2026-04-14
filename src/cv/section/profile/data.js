@@ -1,4 +1,4 @@
-{
+export const data = {
   "name": "Willyams Ricardo Yujra Huanca",
   "picture": "/images/foto2.png",
 
@@ -79,3 +79,4 @@
     }
   ]
 }
+;

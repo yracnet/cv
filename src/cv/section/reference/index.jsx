@@ -1,7 +1,7 @@
 import { PrintText } from "../ui/text";
 import { TitleLine } from "../ui/title";
 import { ReferencesCol, ReferencesItem } from "./css";
-import data from "./data.json";
+import { data } from "./data.js";
 
 const References = () => {
   return (

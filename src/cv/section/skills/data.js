@@ -1,4 +1,4 @@
-{
+export const data = {
   "title": {
     "es": "Habilidades",
     "en": "Skills"
@@ -111,3 +111,4 @@
     }
   ]
 }
+;

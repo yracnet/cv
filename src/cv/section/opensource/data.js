@@ -1,4 +1,4 @@
-{
+export const data = {
   "title": {
     "es": "Proyectos Open Source",
     "en": "Open Source Projects"
@@ -51,3 +51,4 @@
     }
   ]
 }
+;

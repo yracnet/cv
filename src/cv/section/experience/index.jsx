@@ -1,6 +1,6 @@
 import { TitleLine } from "../ui/title";
 import { ExperienceItem } from "./css";
-import data from "./data.json";
+import { data } from "./data.js";
 import { PrintText, PrintTextList } from "../ui/text";
 const Experience = () => {
   return (

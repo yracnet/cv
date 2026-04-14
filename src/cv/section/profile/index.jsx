@@ -1,6 +1,6 @@
 import { PrintText } from "../ui/text";
 import { ProfileStyle } from "./css";
-import profile from "./data.json";
+import { data as profile } from "./data.js";
 
 const Profile = () => {
   const { name, picture, headline, summary, contact } = profile;

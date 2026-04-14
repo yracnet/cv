@@ -1,6 +1,6 @@
 import { PrintText, PrintTextList } from "../ui/text";
 import { SkillItem } from "./css";
-import data from "./data.json";
+import { data } from "./data.js";
 import { TitleLine } from "../ui/title";
 import { Debug } from "../ui/debug";
 

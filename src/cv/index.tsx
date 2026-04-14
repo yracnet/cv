@@ -17,6 +17,7 @@ const App = () => {
           <Profile />
           <Experience />
           <Skill />
+          <Opensource />
           <Education />
         </Page>
       </Body>

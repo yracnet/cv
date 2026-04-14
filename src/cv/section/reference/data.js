@@ -1,4 +1,4 @@
-{
+export const data = {
   "title": {
     "es": "Referencias Personales",
     "en": "Personal References"
@@ -302,3 +302,4 @@
     }
   ]
 }
+;

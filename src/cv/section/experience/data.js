@@ -1,4 +1,4 @@
-{
+export const data = {
   "title": {
     "es": "Experiencia",
     "en": "Experience"
@@ -15,7 +15,10 @@
         "es": "Consultor Remoto",
         "en": "Remote Consultant"
       },
-      "period": { "from": "2021-03", "to": "2025-12" },
+      "period": {
+        "from": "2021-03",
+        "to": "2025-12"
+      },
       "role": {
         "es": "Ingeniero de Software Senior",
         "en": "Senior Software Engineer"
@@ -34,13 +37,13 @@
           "en": "Response time optimization and large-scale refactoring in C# and React projects."
         },
         {
-          "es": "Liderazgo de tareas relacionadas con CI/CD, incluyendo configuración de Jenkins e integración con Azure.",
-          "en": "Leadership of CI/CD-related tasks, including Jenkins configuration and Azure integration."
+          "es": "CI/CD, incluyendo configuración de Jenkins e integración con Azure.",
+          "en": "CI/CD-related tasks, including Jenkins configuration and Azure integration."
         },
-        {
-          "es": "Integración de correos electrónicos mediante SendGrid y Mailtrap.",
-          "en": "Email integrations using SendGrid and Mailtrap."
-        },
+        // {
+        //   "es": "Integración de correos electrónicos mediante SendGrid y Mailtrap.",
+        //   "en": "Email integrations using SendGrid and Mailtrap."
+        // },
         {
           "es": "Asunción temporal de responsabilidades de liderazgo de proyectos.",
           "en": "Temporary assumption of project leadership responsibilities."
@@ -79,6 +82,7 @@
         "Python",
         "C#",
         "Jenkins",
+        "SendGrid",
         "Git",
         "Chrome Extensions",
         "Google Gemini",
@@ -88,7 +92,6 @@
         "Einstein Salesforce"
       ]
     },
-
     {
       "id": "bcb",
       "company": "Banco Central de Bolivia",
@@ -97,7 +100,10 @@
         "es": "Consultor",
         "en": "Consultant"
       },
-      "period": { "from": "2019-09", "to": "2020-12" },
+      "period": {
+        "from": "2019-09",
+        "to": "2020-12"
+      },
       "role": {
         "es": "Analista / Arquitecto de Software",
         "en": "Software Analyst / Architect"
@@ -132,7 +138,6 @@
         "SonarQube"
       ]
     },
-
     {
       "id": "banco-union",
       "company": "Banco Unión",
@@ -141,7 +146,10 @@
         "es": "Permanente",
         "en": "Permanent"
       },
-      "period": { "from": "2015-09", "to": "2019-08" },
+      "period": {
+        "from": "2015-09",
+        "to": "2019-08"
+      },
       "role": {
         "es": "Arquitecto de Software Core",
         "en": "Core Software Architect"
@@ -204,7 +212,6 @@
         "Jenkins"
       ]
     },
-
     {
       "id": "espm",
       "company": "ESPM - Empresa de Servicio de Pago Móvil",
@@ -213,7 +220,10 @@
         "es": "Permanente",
         "en": "Permanent"
       },
-      "period": { "from": "2015-03", "to": "2015-09" },
+      "period": {
+        "from": "2015-03",
+        "to": "2015-09"
+      },
       "role": {
         "es": "Analista / Desarrollador de Software",
         "en": "Software Analyst / Developer"
@@ -234,7 +244,6 @@
         "Oracle"
       ]
     },
-
     {
       "id": "sin",
       "company": "Servicio de Impuestos Nacionales",
@@ -243,7 +252,10 @@
         "es": "Consultor",
         "en": "Consultant"
       },
-      "period": { "from": "2014-09", "to": "2015-02" },
+      "period": {
+        "from": "2014-09",
+        "to": "2015-02"
+      },
       "role": {
         "es": "Analista / Desarrollador de Software",
         "en": "Software Analyst / Developer"
@@ -264,7 +276,6 @@
         "JBoss 7"
       ]
     },
-
     {
       "id": "axs",
       "company": "AXS Bolivia",
@@ -273,14 +284,21 @@
         "es": "Consultor",
         "en": "Consultant"
       },
-      "period": { "from": "2014-05", "to": "2014-08" },
+      "period": {
+        "from": "2014-05",
+        "to": "2014-08"
+      },
       "role": {
         "es": "Desarrollador de Software",
         "en": "Software Developer"
       },
-      "technologies": ["Java 5", "Java 6", "WebLogic", "JSF"]
+      "technologies": [
+        "Java 5",
+        "Java 6",
+        "WebLogic",
+        "JSF"
+      ]
     },
-
     {
       "id": "bid",
       "company": {
@@ -292,7 +310,10 @@
         "es": "Consultor",
         "en": "Consultant"
       },
-      "period": { "from": "2013-07", "to": "2014-02" },
+      "period": {
+        "from": "2013-07",
+        "to": "2014-02"
+      },
       "role": {
         "es": "Analista e Implementador de Software",
         "en": "Software Analyst and Implementer"
@@ -324,7 +345,6 @@
         "Oracle"
       ]
     },
-
     {
       "id": "entel",
       "company": {
@@ -336,7 +356,10 @@
         "es": "Permanente",
         "en": "Permanent"
       },
-      "period": { "from": "2010-03", "to": "2013-06" },
+      "period": {
+        "from": "2010-03",
+        "to": "2013-06"
+      },
       "role": {
         "es": "Analista / Desarrollador de Software",
         "en": "Software Analyst / Developer"
