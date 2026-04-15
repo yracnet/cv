@@ -25,24 +25,12 @@ export const data = {
       },
       "description": [
         {
-          "es": "Desarrollo y mantenimiento de sistemas asistido/integrado con IA.",
-          "en": "Development and maintenance of AI-assisted/integrated systems."
-        },
-        {
-          "es": "Desarrollo y mantenimiento de sistemas CMS y extensiones de Chrome.",
-          "en": "Development and maintenance of CMS systems and Chrome extensions."
-        },
-        {
           "es": "Reducción del tiempo de respuesta de 12s a 300ms redefiniendo la arquitectura de layer architecture a simple service en proyectos C# y React.",
           "en": "Reduced response time from 12s to 300ms by redefining the architecture from layer architecture to simple service in C# and React projects."
         },
         {
-          "es": "CI/CD, incluyendo configuración de Jenkins e integración con Azure.",
-          "en": "CI/CD-related tasks, including Jenkins configuration and Azure integration."
-        },
-        {
-          "es": "Implementación de una capa de consulta sobre MongoDB para simplificar la complejidad de las queries, reemplazando el uso de LINQ.",
-          "en": "Implemented a MongoDB query layer to simplify query complexity, replacing the use of LINQ."
+          "es": "Asunción temporal del liderazgo del proyecto durante 1 mes y medio, coordinando un equipo de 2 personas.",
+          "en": "Temporarily led the project for 1.5 months, coordinating a team of 2 people."
         },
         {
           "es": "Implementación de una capa de inyección de eventos sobre interfaces UI externas con CSS e IDs dinámicos, resolviendo la detección de elementos volátiles mediante observación del DOM para la extensión de Chrome.",
@@ -52,13 +40,21 @@ export const data = {
           "es": "Implementación de una capa de interceptación de consultas HTTP sobre el API nativo de JavaScript (fetch/XHR).",
           "en": "Implemented an HTTP query interception layer over the native JavaScript HTTP API (fetch/XHR)."
         },
-        // {
-        //   "es": "Integración de correos electrónicos mediante SendGrid y Mailtrap.",
-        //   "en": "Email integrations using SendGrid and Mailtrap."
-        // },
         {
-          "es": "Asunción temporal del liderazgo del proyecto durante 1 mes y medio, coordinando un equipo de 2 personas.",
-          "en": "Temporarily led the project for 1.5 months, coordinating a team of 2 people."
+          "es": "Implementación de una capa de consulta sobre MongoDB para simplificar la complejidad de las queries, reemplazando el uso de LINQ.",
+          "en": "Implemented a MongoDB query layer to simplify query complexity, replacing the use of LINQ."
+        },
+        {
+          "es": "CI/CD, incluyendo configuración de Jenkins e integración con Azure.",
+          "en": "CI/CD-related tasks, including Jenkins configuration and Azure integration."
+        },
+        {
+          "es": "Desarrollo y mantenimiento de sistemas asistido/integrado con IA.",
+          "en": "Development and maintenance of AI-assisted/integrated systems."
+        },
+        {
+          "es": "Desarrollo y mantenimiento de sistemas CMS y extensiones de Chrome.",
+          "en": "Development and maintenance of CMS systems and Chrome extensions."
         }
       ],
       "projects": [
@@ -122,6 +118,10 @@ export const data = {
       },
       "description": [
         {
+          "es": "Supervisión de 2 desarrolladores en el equipo de arquitectura.",
+          "en": "Supervised 2 developers within the architecture team."
+        },
+        {
           "es": "Diseño y desarrollo de un nuevo framework Java EE alineado con las guías GTIC.",
           "en": "Design and development of a new Java EE framework aligned with GTIC guidelines."
         },
@@ -136,10 +136,6 @@ export const data = {
         {
           "es": "Desarrollo de herramientas y módulos de atención pública.",
           "en": "Development of tooling and public-facing modules."
-        },
-        {
-          "es": "Supervisión de 2 desarrolladores en el equipo de arquitectura.",
-          "en": "Supervised 2 developers within the architecture team."
         }
       ],
       "technologies": [
@@ -172,20 +168,20 @@ export const data = {
       },
       "description": [
         {
-          "es": "Diseño, desarrollo, pruebas e implementación de un nuevo framework de plataforma bancaria.",
-          "en": "Design, development, testing, and deployment of a new banking platform framework."
+          "es": "Liderazgo de un equipo de 5 a 10+ personas en proyectos transversales del sistema bancario, conduciendo reuniones de coordinación periódicas.",
+          "en": "Led a team of 5 to 10+ people across cross-cutting banking system projects, running regular coordination meetings."
         },
         {
           "es": "Diseño e implementación de una arquitectura Micro-Kernel para la modularización de componentes externos como módulos independientes, basada en Vertical Slice Architecture para el despliegue desacoplado de micro-módulos.",
           "en": "Designed and implemented a Micro-Kernel architecture to modularize external components as independent plug-in modules, based on Vertical Slice Architecture for decoupled micro-module deployment."
         },
         {
-          "es": "Desarrollo de una capa de entorno controlado para desarrollo distribuido, basada en proxy, que permitía a los equipos trabajar de forma aislada sin afectar entornos compartidos.",
-          "en": "Developed a controlled environment layer for distributed development based on proxy, enabling teams to work in isolation without impacting shared environments."
+          "es": "Diseño, desarrollo, pruebas e implementación de un nuevo framework de plataforma bancaria.",
+          "en": "Design, development, testing, and deployment of a new banking platform framework."
         },
         {
-          "es": "Liderazgo de un equipo de 5 a 10+ personas en proyectos transversales del sistema bancario, conduciendo reuniones de coordinación periódicas.",
-          "en": "Led a team of 5 to 10+ people across cross-cutting banking system projects, running regular coordination meetings."
+          "es": "Desarrollo de una capa de entorno controlado para desarrollo distribuido, basada en proxy, que permitía a los equipos trabajar de forma aislada sin afectar entornos compartidos.",
+          "en": "Developed a controlled environment layer for distributed development based on proxy, enabling teams to work in isolation without impacting shared environments."
         },
         {
           "es": "Integración y entrega continua utilizando Docker, Jenkins y SonarQube.",

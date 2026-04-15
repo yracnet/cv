@@ -17,6 +17,27 @@ export const data = {
           }
         },
         {
+          "value": {
+            "es": "Principios de Diseño",
+            "en": "Design Principles"
+          },
+          "details": ["SOLID", "DRY", "KISS", "YAGNI"]
+        },
+        {
+          "value": {
+            "es": "Patrones de Diseño OOP",
+            "en": "OOP Design Patterns"
+          },
+          "details": ["Builder", "Factory", "Singleton", "Composite", "Strategy", "Decorator"]
+        },
+        {
+          "value": {
+            "es": "Programación Funcional y Patrones Funcionales",
+            "en": "Functional Programming & Functional Patterns"
+          },
+          "details": ["Immutability", "Pure Functions", "Higher-Order Functions", "Monads", "Composition"]
+        },
+        {
           "value": "TypeScript"
         },
         {
@@ -48,7 +69,8 @@ export const data = {
               "es": "Infraestructura como Código",
               "en": "Infrastructure as Code"
             },
-            "Gitea Actions"
+            "GitHub Actions",
+            "Gitea Actions (self-hosted)"
           ]
         },
         {
