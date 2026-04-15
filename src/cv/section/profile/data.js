@@ -8,8 +8,8 @@ export const data = {
       "en": "Senior Software Engineer"
     },
     {
-      "es": "Ingeniero de Performance de Aplicaciones",
-      "en": "Application Performance Engineer"
+      "es": "Ingeniero de Performance",
+      "en": "Performance Engineer"
     },
     {
       "es": "Arquitecto de Software",
@@ -18,6 +18,10 @@ export const data = {
   ],
 
   "summary": [
+    {
+      "es": "Más de 15 años de experiencia en desarrollo, arquitectura y optimización de software empresarial.",
+      "en": "Over 15 years of experience in enterprise software development, architecture, and performance optimization."
+    },
     {
       "es": "Maestría en Dirección Estratégica en Ingeniería de Software de la Universidad Autónoma René Gabriel Moreno.",
       "en": "Master’s Degree in Strategic Management in Software Engineering from Universidad Autónoma René Gabriel Moreno."
@@ -79,4 +83,4 @@ export const data = {
     }
   ]
 }
-;
+  ;

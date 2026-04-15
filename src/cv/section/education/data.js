@@ -115,7 +115,7 @@ export const data = {
           ]
         },
         {
-          "hiden": true,
+          "hide": true,
           "period": {
             "from": "2016-01",
             "to": "2016-06"
@@ -137,7 +137,7 @@ export const data = {
           ]
         },
         {
-          "hiden": true,
+          "hide": true,
           "period": {
             "from": "2015-06",
             "to": "2015-12"

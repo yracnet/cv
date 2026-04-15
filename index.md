@@ -13,7 +13,6 @@ Senior Software Engineer - Software Architect
 - Experience in the analysis, development, and evaluation of computer systems.
 - Ongoing training in the latest trends, technologies, and paradigms.
 
-
 <div id="webaddress">
 <a href="mailto:yracnet@gmail.com"><span>My Email</span></a>
 <a href="https://yracnet.github.io/cv/"><span>My CV</span></a>
@@ -25,22 +24,23 @@ Senior Software Engineer - Software Architect
 ## Core Skills
 
 ### Technical Skills
+
 - Software Architecture & System Design
 - Java Enterprise Edition - JEE (JTA, JPA, JAX-RS, WebLogic, Wildfly, Payara)
 - Web Application Development (NodeJS, ReactJS, NextJS, ViteJS, Express)
 - DevOps (CI/CD, Docker, Infrastructure as Code, Gitea Actions)
-- Cloud Computing Basics (AWS, Azure concepts, Cloud Sigma)
+- Cloud Computing (AWS, Azure concepts, Cloud Sigma)
 - Database Management (MongoDB, Oracle, PostgreSQL)
 - Secure Software Development
-- Test Automation (SonarQube, basic Selenium)
+- Test Automation (SonarQube, Selenium)
 
 ### Personal Skills
+
 - Agile Methodologies (Scrum, Kanban)
 - Project Management
 - Team Leadership
 - Critical Thinking & Problem Solving
 - Technical Documentation & Standardization
-
 
 ## Occupation
 
@@ -197,7 +197,7 @@ Senior Software Engineer - Software Architect
 
 - **Master's Degree in Strategic Management in Software Engineering**
 - Master's degree in Software Development and Engineering, with training in architecture, testing, DevOps, cloud computing, security, data engineering, and automation. I acquired skills in agile methodologies, leadership, project management, and continuous delivery. I integrated technical and practical knowledge to design, build, and deploy robust, secure, and efficient software aligned with business needs.
-Master's degree in Software Development and Engineering, with training in architecture, testing, DevOps, cloud computing, security, data engineering, and automation. - I acquired skills in agile methodologies, leadership, project management, and continuous delivery. I integrated technical and practical knowledge to design, build, and deploy robust, secure, and efficient software aligned with business needs.
+  Master's degree in Software Development and Engineering, with training in architecture, testing, DevOps, cloud computing, security, data engineering, and automation. - I acquired skills in agile methodologies, leadership, project management, and continuous delivery. I integrated technical and practical knowledge to design, build, and deploy robust, secure, and efficient software aligned with business needs.
 - Skills: Systems Architecture, Project Management, Agile Methodologies, Software Design, Team Leadership, DevOps, Docker, IaaS
 
 `07/2009-03/2010` **Escuela de Gestión Publica Plurinacional**

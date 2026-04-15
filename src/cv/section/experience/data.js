@@ -33,20 +33,32 @@ export const data = {
           "en": "Development and maintenance of CMS systems and Chrome extensions."
         },
         {
-          "es": "Optimización de tiempos de respuesta y refactorización en proyectos C# y React.",
-          "en": "Response time optimization and large-scale refactoring in C# and React projects."
+          "es": "Reducción del tiempo de respuesta de 12s a 300ms redefiniendo la arquitectura de layer architecture a simple service en proyectos C# y React.",
+          "en": "Reduced response time from 12s to 300ms by redefining the architecture from layer architecture to simple service in C# and React projects."
         },
         {
           "es": "CI/CD, incluyendo configuración de Jenkins e integración con Azure.",
           "en": "CI/CD-related tasks, including Jenkins configuration and Azure integration."
+        },
+        {
+          "es": "Implementación de una capa de consulta sobre MongoDB para simplificar la complejidad de las queries, reemplazando el uso de LINQ.",
+          "en": "Implemented a MongoDB query layer to simplify query complexity, replacing the use of LINQ."
+        },
+        {
+          "es": "Implementación de una capa de inyección de eventos sobre interfaces UI externas con CSS e IDs dinámicos, resolviendo la detección de elementos volátiles mediante observación del DOM para la extensión de Chrome.",
+          "en": "Implemented an event injection layer over external UI interfaces with dynamic CSS and IDs, solving volatile element detection via DOM observation for the Chrome extension."
+        },
+        {
+          "es": "Implementación de una capa de interceptación de consultas HTTP sobre el API nativo de JavaScript (fetch/XHR).",
+          "en": "Implemented an HTTP query interception layer over the native JavaScript HTTP API (fetch/XHR)."
         },
         // {
         //   "es": "Integración de correos electrónicos mediante SendGrid y Mailtrap.",
         //   "en": "Email integrations using SendGrid and Mailtrap."
         // },
         {
-          "es": "Asunción temporal de responsabilidades de liderazgo de proyectos.",
-          "en": "Temporary assumption of project leadership responsibilities."
+          "es": "Asunción temporal del liderazgo del proyecto durante 1 mes y medio, coordinando un equipo de 2 personas.",
+          "en": "Temporarily led the project for 1.5 months, coordinating a team of 2 people."
         }
       ],
       "projects": [
@@ -86,8 +98,8 @@ export const data = {
         "Git",
         "Chrome Extensions",
         "Google Gemini",
-        "IA Client",
-        "IA Generator",
+        "AI",
+        "Generative AI",
         "Salesforce",
         "Einstein Salesforce"
       ]
@@ -124,6 +136,10 @@ export const data = {
         {
           "es": "Desarrollo de herramientas y módulos de atención pública.",
           "en": "Development of tooling and public-facing modules."
+        },
+        {
+          "es": "Supervisión de 2 desarrolladores en el equipo de arquitectura.",
+          "en": "Supervised 2 developers within the architecture team."
         }
       ],
       "technologies": [
@@ -160,16 +176,24 @@ export const data = {
           "en": "Design, development, testing, and deployment of a new banking platform framework."
         },
         {
-          "es": "Arquitectura e implementación de un sistema basado en Micro-Kernel.",
-          "en": "Architecture and implementation of a Micro-Kernel–based system."
+          "es": "Diseño e implementación de una arquitectura Micro-Kernel para la modularización de componentes externos como módulos independientes, basada en Vertical Slice Architecture para el despliegue desacoplado de micro-módulos.",
+          "en": "Designed and implemented a Micro-Kernel architecture to modularize external components as independent plug-in modules, based on Vertical Slice Architecture for decoupled micro-module deployment."
         },
         {
-          "es": "Liderazgo en proyectos transversales del sistema bancario.",
-          "en": "Leadership in cross-cutting banking system projects."
+          "es": "Desarrollo de una capa de entorno controlado para desarrollo distribuido, basada en proxy, que permitía a los equipos trabajar de forma aislada sin afectar entornos compartidos.",
+          "en": "Developed a controlled environment layer for distributed development based on proxy, enabling teams to work in isolation without impacting shared environments."
+        },
+        {
+          "es": "Liderazgo de un equipo de 5 a 10+ personas en proyectos transversales del sistema bancario, conduciendo reuniones de coordinación periódicas.",
+          "en": "Led a team of 5 to 10+ people across cross-cutting banking system projects, running regular coordination meetings."
         },
         {
           "es": "Integración y entrega continua utilizando Docker, Jenkins y SonarQube.",
           "en": "Continuous integration and delivery using Docker, Jenkins, and SonarQube."
+        },
+        {
+          "es": "Mantenimiento del entorno de versionamiento local con Git y CSM-Manager sobre Docker, incluyendo soporte al proxy gateway de desarrollo.",
+          "en": "Maintained a local versioning environment with Git and CSM-Manager on Docker, including support for the development proxy gateway."
         }
       ],
       "modules": [
@@ -214,6 +238,7 @@ export const data = {
     },
     {
       "id": "espm",
+      "hide": true,
       "company": "ESPM - Empresa de Servicio de Pago Móvil",
       "location": "La Paz, Bolivia",
       "modality": {
@@ -246,6 +271,7 @@ export const data = {
     },
     {
       "id": "sin",
+      "hide": true,
       "company": "Servicio de Impuestos Nacionales",
       "location": "La Paz, Bolivia",
       "modality": {
@@ -278,6 +304,7 @@ export const data = {
     },
     {
       "id": "axs",
+      "hide": true,
       "company": "AXS Bolivia",
       "location": "La Paz, Bolivia",
       "modality": {

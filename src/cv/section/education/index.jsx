@@ -10,7 +10,7 @@ const Education = () => {
         <PrintText value={data.title} />
       </TitleLine>
       {data.items
-        .filter((it) => it.hiden !== true)
+        .filter((it) => it.hide !== true)
         .map((group, idx) => (
           <EducationItem key={idx}>
             <h3>
@@ -18,7 +18,7 @@ const Education = () => {
             </h3>
             <div className="content">
               {group.items
-                .filter((it) => it.hiden !== true)
+                .filter((it) => it.hide !== true)
                 .map((item, i) => (
                   <div key={i} className="education-item">
                     <div className="institution">

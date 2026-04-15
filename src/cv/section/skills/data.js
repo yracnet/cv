@@ -17,6 +17,18 @@ export const data = {
           }
         },
         {
+          "value": "TypeScript"
+        },
+        {
+          "value": {
+            "es": "API REST / RESTful",
+            "en": "REST API / RESTful"
+          }
+        },
+        {
+          "value": "Microservices"
+        },
+        {
           "value": "Java Enterprise Edition",
           "details": ["JTA", "JPA", "JAX-RS", "WebLogic", "Wildfly", "Payara"]
         },
@@ -46,11 +58,8 @@ export const data = {
           },
           "details": [
             "AWS",
-            {
-              "es": "Conceptos de Azure",
-              "en": "Azure Concepts"
-            },
-            "Cloud Sigma"
+            "Microsoft Azure",
+            "CloudSigma"
           ]
         },
         {
@@ -66,19 +75,19 @@ export const data = {
             "en": "Secure Software Development"
           }
         },
-        {
-          "value": {
-            "es": "Automatización de Pruebas",
-            "en": "Test Automation"
-          },
-          "details": [
-            "SonarQube",
-            {
-              "es": "Selenium básico",
-              "en": "Basic Selenium"
-            }
-          ]
-        }
+        // {
+        //   "value": {
+        //     "es": "Automatización de Pruebas",
+        //     "en": "Test Automation"
+        //   },
+        //   "details": [
+        //     "SonarQube",
+        //     {
+        //       "es": "Selenium",
+        //       "en": "Selenium"
+        //     }
+        //   ]
+        // }
       ]
     },
     {
@@ -111,4 +120,4 @@ export const data = {
     }
   ]
 }
-;
+  ;
